@@ -224,17 +224,17 @@ class ParserTest extends PHPUnit_Framework_TestCase
         $this->assertEquals(null, $result->getTechnique());
     }
     
-    public function testExtractTimeLimit()
+    public function testExtractReferences()
     {
 	$xml = simplexml_load_file(__dir__ . '/Int-Swimmeeting-Innsbruck-7-May-2016.lef');
         $target = new Parser();
 
 	$timeResultsSum = 0;
-	$count = 10;
+	$count = 5;
         for($i = 0; $i <= $count; $i++)
 	{
 	    $startTime = microtime(true);
-	    $result = $target->extractLenex($xml);
+	    $lenexResult = $target->parseResult($xml);
 	    $endTime = microtime(true);
 	    $timeResultsSum += ($endTime-$startTime);
 	}
@@ -250,5 +250,42 @@ class ParserTest extends PHPUnit_Framework_TestCase
 	$averageTime = $timeResultsSum / $count;
 	echo "Average Extraction time: ".($averageTime)."s";
 	
+	$this->assertRankingResults($lenexResult->meets[0]->sessions[0]->events[0]->ageGroups[0]->rankings);
+	$this->assertRelayPositionAthlete($lenexResult->meets[0]->clubs[1]->relays[0]->results);
+	$this->assertResultHeat($lenexResult->meets[0]->clubs[0]->athletes[0]->results);
+	$this->assertResultEvent($lenexResult->meets[0]->clubs[0]->athletes[0]->results);
+	$this->assertResultEvent($lenexResult->meets[0]->clubs[0]->athletes[0]->results);
+    }
+    
+    private function assertRankingResults(Array $rankings)
+    {
+	$this->assertEquals($rankings[0]->resultId, $rankings[0]->result->resultId);
+	$this->assertEquals($rankings[1]->resultId, $rankings[1]->result->resultId);
+	$this->assertEquals($rankings[2]->resultId, $rankings[2]->result->resultId);
+	$this->assertEquals($rankings[3]->resultId, $rankings[3]->result->resultId);
+    }
+    
+    private function assertRelayPositionAthlete(Array $relayResults)
+    {
+	$this->assertEquals($relayResults[0]->relayPositions[0]->athleteId,
+		$relayResults[0]->relayPositions[0]->athlete->athleteId);
+	$this->assertEquals($relayResults[0]->relayPositions[1]->athleteId,
+		$relayResults[0]->relayPositions[1]->athlete->athleteId);
+	$this->assertEquals($relayResults[0]->relayPositions[2]->athleteId,
+		$relayResults[0]->relayPositions[2]->athlete->athleteId);
+	$this->assertEquals($relayResults[0]->relayPositions[3]->athleteId,
+		$relayResults[0]->relayPositions[3]->athlete->athleteId);
+    }
+    
+    private function assertResultHeat(Array $results)
+    {
+	$this->assertEquals($results[0]->heat->heatId, $results[0]->heatId);
+	$this->assertEquals($results[1]->heat->heatId, $results[1]->heatId);
+    }
+    
+    private function assertResultEvent(Array $results)
+    {
+	$this->assertEquals($results[0]->event->eventId, $results[0]->eventId);
+	$this->assertEquals($results[1]->event->eventId, $results[1]->eventId);
     }
 }

@@ -46,12 +46,55 @@ use SimpleXMLElement;
 class Parser
 {
     /**
+     * stores objects corresponding to their
+     * id
+     * @type Array
+     */
+    private $objectNameIdTable = Array();
+    
+    private $objectInjectionTable = Array();
+    
+    /**
+     * stores an object for resolving
+     * @param string $objectName
+     * @param object $objectInstance
+     * @param int $objectId
+     */
+    public function registerObjectById($objectName, &$objectInstance, $objectId)
+    {
+	$this->objectNameIdTable[$objectName][$objectId] = $objectInstance;
+    }
+    
+    public function registerObjectForInjection(&$objectInstance, $foreignObjectName)
+    {
+	$this->objectInjectionTable[$foreignObjectName][] = $objectInstance;
+    }
+    
+    /**
      * @param SimpleXMLElement $document
      * @return Lenex
      */
     public function parseResult(SimpleXMLElement $document)
     {
-        return $this->extractLenex($document);
+        $result = $this->extractLenex($document);
+	$this->resolveInjections();
+	return $result;
+    }
+    
+    public function resolveInjections()
+    {
+	foreach($this->objectInjectionTable as $objectName => $objectList)
+	{
+	    foreach($objectList as $index => $objectInstance)
+	    {
+		$id = $objectInstance->{$objectName."Id"};
+		
+		if(isset($this->objectNameIdTable[$objectName][$id])){
+		    $objectInstance->{$objectName} = 
+			$this->objectNameIdTable[$objectName][$id];
+		}
+	    }
+	}
     }
 
 
@@ -338,8 +381,10 @@ class Parser
             },
             'swrid'        => 'swrId',
         ];
-
-        return $this->transform($document, $fields, $object);
+	
+        $formattedObject = $this->transform($document, $fields, $object);
+	$this->registerObjectById("athlete", $formattedObject, $formattedObject->athleteId);
+	return $formattedObject;
     }
 
 
@@ -382,8 +427,10 @@ class Parser
             },
             'status'         => 'status',
         ];
-
-        return $this->transform($document, $fields, $object);
+	
+        $formattedObject = $this->transform($document, $fields, $object);
+	$this->registerObjectForInjection($formattedObject, "ageGroup");
+	return $formattedObject;
     }
 
 
@@ -451,7 +498,9 @@ class Parser
             'status'       => 'status',
         ];
 
-        return $this->transform($document, $fields, $object);
+        $formattedObject = $this->transform($document, $fields, $object);
+	$this->registerObjectForInjection($formattedObject, "athlete");
+	return $formattedObject;
     }
 
 
@@ -515,8 +564,12 @@ class Parser
             },
             'swimtime'       => 'swimTime',
         ];
-
-        return $this->transform($document, $fields, $object);
+	
+	$formattedObject = $this->transform($document, $fields, $object);
+	$this->registerObjectForInjection($formattedObject, "event");
+	$this->registerObjectForInjection($formattedObject, "heat");
+	$this->registerObjectById("result", $formattedObject, $formattedObject->resultId);
+	return $formattedObject;
     }
 
 
@@ -592,7 +645,9 @@ class Parser
             'passport'   => 'passport',
         ];
 
-        return $this->transform($document, $fields, $object);
+        $formattedObject = $this->transform($document, $fields, $object);
+	$this->registerObjectById("official", $formattedObject, $formattedObject->officialId);
+	return $formattedObject;
     }
 
 
@@ -695,7 +750,9 @@ class Parser
             'version'      => 'version',
         ];
 
-        return $this->transform($document, $fields, $object);
+        $formattedObject = $this->transform($document, $fields, $object);
+	$this->registerObjectById("pointTable", $formattedObject, $formattedObject->pointTableId);
+	return $formattedObject;
     }
 
     /**
@@ -849,7 +906,9 @@ class Parser
             'type'             => 'type',
         ];
 
-        return $this->transform($document, $fields, $object);
+        $formattedObject = $this->transform($document, $fields, $object);
+	$this->registerObjectById("event", $formattedObject, $formattedObject->eventId);
+	return $formattedObject;
     }
 
 
@@ -889,7 +948,9 @@ class Parser
             },
         ];
 
-        return $this->transform($document, $fields, $object);
+        $formattedObject = $this->transform($document, $fields, $object);
+	$this->registerObjectById("ageGroup", $formattedObject, $formattedObject->ageGroupId);
+	return $formattedObject;
     }
 
 
@@ -922,7 +983,9 @@ class Parser
             'resultid' => 'resultId',
         ];
 
-        return $this->transform($document, $fields, $object);
+        $formattedObject = $this->transform($document, $fields, $object);
+	$this->registerObjectForInjection($formattedObject, "result");
+	return $formattedObject;
     }
 
 
@@ -957,7 +1020,9 @@ class Parser
             'role'       => 'role',
         ];
 
-        return $this->transform($document, $fields, $object);
+        $formattedObject = $this->transform($document, $fields, $object);
+	$this->registerObjectForInjection($formattedObject, "official");
+	return $formattedObject;
     }
 
     /**
@@ -994,7 +1059,10 @@ class Parser
             'status'     => 'status',
         ];
 
-        return $this->transform($document, $fields, $object);
+        $formattedObject = $this->transform($document, $fields, $object);
+	$this->registerObjectById("heat", $formattedObject, $formattedObject->heatId);
+	$this->registerObjectForInjection($formattedObject, "ageGroup");
+	return $formattedObject;
     }
 
     /**
@@ -1015,7 +1083,9 @@ class Parser
             'technique'   => 'technique',
         ];
 
-        return $this->transform($document, $fields, $object);
+        $formattedObject = $this->transform($document, $fields, $object);
+	$this->registerObjectById("swimStyle", $formattedObject, $formattedObject->swimStyleId);
+	return $formattedObject;
     }
 
 

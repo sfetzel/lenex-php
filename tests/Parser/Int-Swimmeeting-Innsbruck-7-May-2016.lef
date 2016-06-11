@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <LENEX version="3.0">
-  <CONSTRUCTOR name="SPLASH Meet Manager 11" registration="LSV Tirol" version="11.42712">
-    <CONTACT name="Splash Software GmbH" street="Ahornweg 41" city="Spiegel b. Bern" zip="3095" country="CH" phone="+41 99 999 99 99" fax="+41 99 999 99 99" email="sales@swimrankings.net" internet="https://www.swimrankings.net" />
+  <CONSTRUCTOR name="Breedy Badger" registration="LSV Tirol" version="11.42712">
+    <CONTACT name="Breedy Badger" street="Ahornweg 41" city="Spiegel b. Bern" zip="3095" country="CH" phone="+41 99 999 99 99" fax="+41 99 999 99 99" email="sales@swimrankings.net" internet="https://www.swimrankings.net" />
   </CONSTRUCTOR>
   <MEETS>
-    <MEET city="Wien" name="3. Intasdfa" name.en="3rd Int. Innsbrucker" course="LCM" deadline="2016-04-29" entrystartdate="2016-05-05" hostclub="" hostclub.url="" nation="AUT" organizer="" organizer.url="http://www.twv.at/" reservecount="2" result.url="http://www.schwimmverband-tirol.at/live/2016ibkmeet/index.html" startmethod="1" state="TI" timing="AUTOMATIC">
+    <MEET city="Wien" name="Breedy Badger" name.en="3rd Int. Innsbrucker" course="LCM" deadline="2016-04-29" entrystartdate="2016-05-05" hostclub="" hostclub.url="" nation="AUT" organizer="" organizer.url="http://www.twv.at/" reservecount="2" result.url="http://www.schwimmverband-tirol.at/live/2016ibkmeet/index.html" startmethod="1" state="TI" timing="AUTOMATIC">
       <AGEDATE value="2016-05-07" type="YEAR" />
-      <POOL name="jkölasdf" lanemin="1" lanemax="8" />
-      <POINTTABLE pointtableid="3005" name="FINA Point Scoring" version="2012" />
-      <CONTACT city="Vienna" email="testfile@example.org" fax="+13 926315890234" name="Werauch Immer" phone="+43 (699) 10909741" street="Katzenbergerstrasse 2" zip="45879" />
+      <POOL name="Breedy Badger" lanemin="1" lanemax="8" />
+      <POINTTABLE pointtableid="3005" name="Breedy Badger" version="2012" />
+      <CONTACT city="Vienna" email="testfile@example.org" fax="+13 926315890234" name="Breedy Badger" phone="+43 (699) 10909741" street="Katzenbergerstrasse 2" zip="45879" />
       <QUALIFY from="2015-01-01" until="2016-04-29" />
       <SESSIONS>
-        <SESSION date="2016-05-07" daytime="10:30" name="Wettkampfabschnitt 1" number="1" warmupfrom="09:30" warmupuntil="10:20">
+        <SESSION date="2016-05-07" daytime="10:30" name="Breedy Badger" number="1" warmupfrom="09:30" warmupuntil="10:20">
           <EVENTS>
             <EVENT eventid="3649" daytime="13:47" gender="M" number="8" order="8" round="TIM" preveventid="-1">
               <SWIMSTYLE distance="200" relaycount="1" stroke="FREE" />
               <FEE currency="EUR" value="450" />
               <AGEGROUPS>
-                <AGEGROUP agegroupid="9785" agemax="12" agemin="11" name="Schüler II">
+                <AGEGROUP agegroupid="9785" agemax="12" agemin="11" name="Breedy Badger">
                   <RANKINGS>
                     <RANKING order="1" place="1" resultid="18195" />
                     <RANKING order="2" place="2" resultid="19060" />
@@ -43,7 +43,7 @@
                     <RANKING order="22" place="22" resultid="17949" />
                   </RANKINGS>
                 </AGEGROUP>
-                <AGEGROUP agegroupid="9786" agemax="14" agemin="13" name="Schüler I">
+                <AGEGROUP agegroupid="9786" agemax="14" agemin="13" name="Breedy Badger">
                   <RANKINGS>
                     <RANKING order="1" place="1" resultid="16740" />
                     <RANKING order="2" place="2" resultid="17760" />
@@ -71,7 +71,7 @@
                     <RANKING order="24" place="-1" resultid="18773" />
                   </RANKINGS>
                 </AGEGROUP>
-                <AGEGROUP agegroupid="9787" agemax="16" agemin="15" name="Jugend">
+                <AGEGROUP agegroupid="9787" agemax="16" agemin="15" name="Breedy Badger">
                   <RANKINGS>
                     <RANKING order="1" place="1" resultid="18168" />
                     <RANKING order="2" place="2" resultid="18955" />
@@ -91,7 +91,7 @@
                     <RANKING order="16" place="16" resultid="16464" />
                   </RANKINGS>
                 </AGEGROUP>
-                <AGEGROUP agegroupid="9788" agemax="18" agemin="17" name="Junioren II">
+                <AGEGROUP agegroupid="9788" agemax="18" agemin="17" name="Breedy Badger">
                   <RANKINGS>
                     <RANKING order="1" place="1" resultid="17468" />
                     <RANKING order="2" place="2" resultid="17687" />
@@ -107,12 +107,12 @@
                     <RANKING order="12" place="12" resultid="19114" />
                   </RANKINGS>
                 </AGEGROUP>
-                <AGEGROUP agegroupid="9789" agemax="20" agemin="19" name="Junioren I">
+                <AGEGROUP agegroupid="9789" agemax="20" agemin="19" name="Breedy Badger">
                   <RANKINGS>
                     <RANKING order="1" place="1" resultid="19767" />
                   </RANKINGS>
                 </AGEGROUP>
-                <AGEGROUP agegroupid="9790" agemax="-1" agemin="21" name="Allgemeine Klasse">
+                <AGEGROUP agegroupid="9790" agemax="-1" agemin="21" name="Breedy Badger">
                   <RANKINGS>
                     <RANKING order="1" place="1" resultid="19049" />
                     <RANKING order="2" place="2" resultid="18379" />
@@ -130,7 +130,7 @@
                 </AGEGROUP>
               </AGEGROUPS>
               <HEATS>
-                <HEAT heatid="19889" daytime="13:47" number="1" order="1" status="OFFICIAL" />
+                <HEAT heatid="19889" daytime="13:47" number="1" order="1" status="OFFICIAL" agegroupid="9790" />
                 <HEAT heatid="19890" daytime="13:50" number="2" order="2" status="OFFICIAL" />
                 <HEAT heatid="19891" daytime="13:54" number="3" order="3" status="OFFICIAL" />
                 <HEAT heatid="19892" daytime="13:57" number="4" order="4" status="OFFICIAL" />
@@ -175,7 +175,7 @@
               <SWIMSTYLE distance="100" relaycount="1" stroke="BREAST" />
               <FEE currency="EUR" value="450" />
               <AGEGROUPS>
-                <AGEGROUP agegroupid="9779" agemax="12" agemin="11" name="Schüler II">
+                <AGEGROUP agegroupid="9779" agemax="12" agemin="11" name="Breedy Badger">
                   <RANKINGS>
                     <RANKING order="1" place="1" resultid="17293" />
                     <RANKING order="2" place="2" resultid="19059" />
@@ -192,7 +192,7 @@
                     <RANKING order="13" place="13" resultid="19301" />
                   </RANKINGS>
                 </AGEGROUP>
-                <AGEGROUP agegroupid="9780" agemax="14" agemin="13" name="Schüler I">
+                <AGEGROUP agegroupid="9780" agemax="14" agemin="13" name="Breedy Badger">
                   <RANKINGS>
                     <RANKING order="1" place="1" resultid="17429" />
                     <RANKING order="2" place="2" resultid="18618" />
@@ -219,7 +219,7 @@
                     <RANKING order="23" place="23" resultid="17386" />
                   </RANKINGS>
                 </AGEGROUP>
-                <AGEGROUP agegroupid="9781" agemax="16" agemin="15" name="Jugend">
+                <AGEGROUP agegroupid="9781" agemax="16" agemin="15" name="Breedy Badger">
                   <RANKINGS>
                     <RANKING order="1" place="1" resultid="17727" />
                     <RANKING order="2" place="2" resultid="17475" />
@@ -241,7 +241,7 @@
                     <RANKING order="18" place="-1" resultid="18631" />
                   </RANKINGS>
                 </AGEGROUP>
-                <AGEGROUP agegroupid="9782" agemax="18" agemin="17" name="Junioren II">
+                <AGEGROUP agegroupid="9782" agemax="18" agemin="17" name="Breedy Badger">
                   <RANKINGS>
                     <RANKING order="1" place="1" resultid="17692" />
                     <RANKING order="2" place="2" resultid="17702" />
@@ -252,7 +252,7 @@
                     <RANKING order="7" place="7" resultid="18132" />
                   </RANKINGS>
                 </AGEGROUP>
-                <AGEGROUP agegroupid="9783" agemax="20" agemin="19" name="Junioren I">
+                <AGEGROUP agegroupid="9783" agemax="20" agemin="19" name="Breedy Badger">
                   <RANKINGS>
                     <RANKING order="1" place="1" resultid="17407" />
                     <RANKING order="2" place="2" resultid="17251" />
@@ -261,7 +261,7 @@
                     <RANKING order="5" place="5" resultid="17683" />
                   </RANKINGS>
                 </AGEGROUP>
-                <AGEGROUP agegroupid="9784" agemax="-1" agemin="21" name="Allgemeine Klasse">
+                <AGEGROUP agegroupid="9784" agemax="-1" agemin="21" name="Breedy Badger">
                   <RANKINGS>
                     <RANKING order="1" place="1" resultid="18611" />
                     <RANKING order="2" place="2" resultid="18938" />
@@ -286,7 +286,7 @@
               <SWIMSTYLE distance="100" relaycount="1" stroke="BREAST" />
               <FEE currency="EUR" value="450" />
               <AGEGROUPS>
-                <AGEGROUP agegroupid="9763" agemax="12" agemin="11" name="Schüler I">
+                <AGEGROUP agegroupid="9763" agemax="12" agemin="11" name="Breedy Badger">
                   <RANKINGS>
                     <RANKING order="1" place="1" resultid="16864" />
                     <RANKING order="2" place="2" resultid="18890" />
@@ -317,7 +317,7 @@
                     <RANKING order="27" place="-1" resultid="18720" />
                   </RANKINGS>
                 </AGEGROUP>
-                <AGEGROUP agegroupid="9764" agemax="14" agemin="13" name="Jugend">
+                <AGEGROUP agegroupid="9764" agemax="14" agemin="13" name="Breedy Badger">
                   <RANKINGS>
                     <RANKING order="1" place="1" resultid="18850" />
                     <RANKING order="2" place="2" resultid="19055" />
@@ -347,7 +347,7 @@
                     <RANKING order="26" place="26" resultid="18014" />
                   </RANKINGS>
                 </AGEGROUP>
-                <AGEGROUP agegroupid="9765" agemax="16" agemin="15" name="Junioren II">
+                <AGEGROUP agegroupid="9765" agemax="16" agemin="15" name="Breedy Badger">
                   <RANKINGS>
                     <RANKING order="1" place="1" resultid="17914" />
                     <RANKING order="2" place="2" resultid="18402" />
@@ -367,7 +367,7 @@
                     <RANKING order="16" place="16" resultid="16474" />
                   </RANKINGS>
                 </AGEGROUP>
-                <AGEGROUP agegroupid="9766" agemax="18" agemin="17" name="Junioren I">
+                <AGEGROUP agegroupid="9766" agemax="18" agemin="17" name="Breedy Badger">
                   <RANKINGS>
                     <RANKING order="1" place="1" resultid="17144" />
                     <RANKING order="2" place="2" resultid="18578" />
@@ -379,7 +379,7 @@
                     <RANKING order="8" place="8" resultid="17003" />
                   </RANKINGS>
                 </AGEGROUP>
-                <AGEGROUP agegroupid="9767" agemax="-1" agemin="19" name="Allgemeine Klasse">
+                <AGEGROUP agegroupid="9767" agemax="-1" agemin="19" name="Breedy Badger">
                   <RANKINGS>
                     <RANKING order="1" place="1" resultid="18393" />
                     <RANKING order="2" place="2" resultid="18592" />
@@ -407,7 +407,7 @@
               <SWIMSTYLE distance="200" relaycount="1" stroke="MEDLEY" />
               <FEE currency="EUR" value="450" />
               <AGEGROUPS>
-                <AGEGROUP agegroupid="3640" agemax="12" agemin="11" name="Schüler I">
+                <AGEGROUP agegroupid="3640" agemax="12" agemin="11" name="Breedy Badger">
                   <RANKINGS>
                     <RANKING order="1" place="1" resultid="17834" />
                     <RANKING order="2" place="2" resultid="19314" />
@@ -440,7 +440,7 @@
                     <RANKING order="29" place="29" resultid="19236" />
                   </RANKINGS>
                 </AGEGROUP>
-                <AGEGROUP agegroupid="3642" agemax="14" agemin="13" name="Jugend">
+                <AGEGROUP agegroupid="3642" agemax="14" agemin="13" name="Breedy Badger">
                   <RANKINGS>
                     <RANKING order="1" place="1" resultid="18570" />
                     <RANKING order="2" place="2" resultid="18849" />
@@ -483,7 +483,7 @@
                     <RANKING order="39" place="39" resultid="17920" />
                   </RANKINGS>
                 </AGEGROUP>
-                <AGEGROUP agegroupid="3644" agemax="16" agemin="15" name="Junioren II">
+                <AGEGROUP agegroupid="3644" agemax="16" agemin="15" name="Breedy Badger">
                   <RANKINGS>
                     <RANKING order="1" place="1" resultid="18401" />
                     <RANKING order="2" place="2" resultid="17913" />
@@ -511,7 +511,7 @@
                     <RANKING order="24" place="24" resultid="16473" />
                   </RANKINGS>
                 </AGEGROUP>
-                <AGEGROUP agegroupid="3645" agemax="18" agemin="17" name="Junioren I">
+                <AGEGROUP agegroupid="3645" agemax="18" agemin="17" name="Breedy Badger">
                   <RANKINGS>
                     <RANKING order="1" place="1" resultid="18524" />
                     <RANKING order="2" place="2" resultid="19727" />
@@ -526,7 +526,7 @@
                     <RANKING order="11" place="11" resultid="17272" />
                   </RANKINGS>
                 </AGEGROUP>
-                <AGEGROUP agegroupid="3646" agemax="-1" agemin="19" name="Allgemeine Klasse">
+                <AGEGROUP agegroupid="3646" agemax="-1" agemin="19" name="Breedy Badger">
                   <RANKINGS>
                     <RANKING order="1" place="1" resultid="18392" />
                     <RANKING order="2" place="2" resultid="18533" />
@@ -558,7 +558,7 @@
               <SWIMSTYLE distance="200" relaycount="1" stroke="FREE" />
               <FEE currency="EUR" value="450" />
               <AGEGROUPS>
-                <AGEGROUP agegroupid="9768" agemax="12" agemin="11" name="Schüler I">
+                <AGEGROUP agegroupid="9768" agemax="12" agemin="11" name="Breedy Badger">
                   <RANKINGS>
                     <RANKING order="1" place="1" resultid="16581" />
                     <RANKING order="2" place="2" resultid="16830" />
@@ -595,7 +595,7 @@
                     <RANKING order="33" place="-1" resultid="16996" />
                   </RANKINGS>
                 </AGEGROUP>
-                <AGEGROUP agegroupid="9769" agemax="14" agemin="13" name="Jugend">
+                <AGEGROUP agegroupid="9769" agemax="14" agemin="13" name="Breedy Badger">
                   <RANKINGS>
                     <RANKING order="1" place="1" resultid="18338" />
                     <RANKING order="2" place="2" resultid="16608" />
@@ -636,7 +636,7 @@
                     <RANKING order="37" place="-1" resultid="17976" />
                   </RANKINGS>
                 </AGEGROUP>
-                <AGEGROUP agegroupid="9770" agemax="16" agemin="15" name="Junioren II">
+                <AGEGROUP agegroupid="9770" agemax="16" agemin="15" name="Breedy Badger">
                   <RANKINGS>
                     <RANKING order="1" place="1" resultid="16633" />
                     <RANKING order="2" place="2" resultid="17554" />
@@ -671,7 +671,7 @@
                     <RANKING order="31" place="31" resultid="18751" />
                   </RANKINGS>
                 </AGEGROUP>
-                <AGEGROUP agegroupid="9771" agemax="18" agemin="17" name="Junioren I">
+                <AGEGROUP agegroupid="9771" agemax="18" agemin="17" name="Breedy Badger">
                   <RANKINGS>
                     <RANKING order="1" place="1" resultid="17846" />
                     <RANKING order="2" place="2" resultid="19729" />
@@ -688,7 +688,7 @@
                     <RANKING order="13" place="13" resultid="16404" />
                   </RANKINGS>
                 </AGEGROUP>
-                <AGEGROUP agegroupid="9772" agemax="-1" agemin="19" name="Allgemeine Klasse">
+                <AGEGROUP agegroupid="9772" agemax="-1" agemin="19" name="Breedy Badger">
                   <RANKINGS>
                     <RANKING order="1" place="1" resultid="18534" />
                     <RANKING order="2" place="2" resultid="17890" />
@@ -744,7 +744,7 @@
               <SWIMSTYLE distance="200" relaycount="1" stroke="MEDLEY" />
               <FEE currency="EUR" value="450" />
               <AGEGROUPS>
-                <AGEGROUP agegroupid="9713" agemax="12" agemin="11" name="Schüler II">
+                <AGEGROUP agegroupid="9713" agemax="12" agemin="11" name="Breedy Badger">
                   <RANKINGS>
                     <RANKING order="1" place="1" resultid="18194" />
                     <RANKING order="2" place="2" resultid="16615" />
@@ -769,7 +769,7 @@
                     <RANKING order="21" place="-1" resultid="18661" />
                   </RANKINGS>
                 </AGEGROUP>
-                <AGEGROUP agegroupid="9714" agemax="14" agemin="13" name="Schüler I">
+                <AGEGROUP agegroupid="9714" agemax="14" agemin="13" name="Breedy Badger">
                   <RANKINGS>
                     <RANKING order="1" place="1" resultid="16739" />
                     <RANKING order="2" place="2" resultid="17428" />
@@ -792,7 +792,7 @@
                     <RANKING order="19" place="19" resultid="16423" />
                   </RANKINGS>
                 </AGEGROUP>
-                <AGEGROUP agegroupid="9715" agemax="16" agemin="15" name="Jugend">
+                <AGEGROUP agegroupid="9715" agemax="16" agemin="15" name="Breedy Badger">
                   <RANKINGS>
                     <RANKING order="1" place="1" resultid="18167" />
                     <RANKING order="2" place="2" resultid="18626" />
@@ -815,7 +815,7 @@
                     <RANKING order="19" place="19" resultid="16483" />
                   </RANKINGS>
                 </AGEGROUP>
-                <AGEGROUP agegroupid="9716" agemax="18" agemin="17" name="Junioren II">
+                <AGEGROUP agegroupid="9716" agemax="18" agemin="17" name="Breedy Badger">
                   <RANKINGS>
                     <RANKING order="1" place="1" resultid="18791" />
                     <RANKING order="2" place="2" resultid="17436" />
@@ -830,14 +830,14 @@
                     <RANKING order="11" place="11" resultid="17020" />
                   </RANKINGS>
                 </AGEGROUP>
-                <AGEGROUP agegroupid="9717" agemax="20" agemin="19" name="Junioren I">
+                <AGEGROUP agegroupid="9717" agemax="20" agemin="19" name="Breedy Badger">
                   <RANKINGS>
                     <RANKING order="1" place="1" resultid="17406" />
                     <RANKING order="2" place="2" resultid="17250" />
                     <RANKING order="3" place="3" resultid="17682" />
                   </RANKINGS>
                 </AGEGROUP>
-                <AGEGROUP agegroupid="9718" agemax="-1" agemin="21" name="Allgemeine Klasse">
+                <AGEGROUP agegroupid="9718" agemax="-1" agemin="21" name="Breedy Badger">
                   <RANKINGS>
                     <RANKING order="1" place="1" resultid="19133" />
                     <RANKING order="2" place="2" resultid="19143" />
@@ -865,7 +865,7 @@
               <SWIMSTYLE distance="50" relaycount="1" stroke="BACK" />
               <FEE currency="EUR" value="450" />
               <AGEGROUPS>
-                <AGEGROUP agegroupid="9792" agemax="10" agemin="-1" name="Schüler III">
+                <AGEGROUP agegroupid="9792" agemax="10" agemin="-1" name="Breedy Badger">
                   <RANKINGS>
                     <RANKING order="1" place="1" resultid="18806" />
                     <RANKING order="2" place="2" resultid="19069" />
@@ -875,7 +875,7 @@
                     <RANKING order="6" place="6" resultid="17972" />
                   </RANKINGS>
                 </AGEGROUP>
-                <AGEGROUP agegroupid="9773" agemax="12" agemin="11" name="Schüler II">
+                <AGEGROUP agegroupid="9773" agemax="12" agemin="11" name="Breedy Badger">
                   <RANKINGS>
                     <RANKING order="1" place="1" resultid="18713" />
                     <RANKING order="2" place="2" resultid="18254" />
@@ -887,7 +887,7 @@
                     <RANKING order="8" place="8" resultid="19788" />
                   </RANKINGS>
                 </AGEGROUP>
-                <AGEGROUP agegroupid="9774" agemax="14" agemin="13" name="Schüler I">
+                <AGEGROUP agegroupid="9774" agemax="14" agemin="13" name="Breedy Badger">
                   <RANKINGS>
                     <RANKING order="1" place="1" resultid="17867" />
                     <RANKING order="2" place="2" resultid="19745" />
@@ -906,7 +906,7 @@
                     <RANKING order="15" place="15" resultid="17385" />
                   </RANKINGS>
                 </AGEGROUP>
-                <AGEGROUP agegroupid="9775" agemax="16" agemin="15" name="Jugend">
+                <AGEGROUP agegroupid="9775" agemax="16" agemin="15" name="Breedy Badger">
                   <RANKINGS>
                     <RANKING order="1" place="1" resultid="18954" />
                     <RANKING order="2" place="2" resultid="18614" />
@@ -923,7 +923,7 @@
                     <RANKING order="13" place="-1" resultid="17444" />
                   </RANKINGS>
                 </AGEGROUP>
-                <AGEGROUP agegroupid="9776" agemax="18" agemin="17" name="Junioren II">
+                <AGEGROUP agegroupid="9776" agemax="18" agemin="17" name="Breedy Badger">
                   <RANKINGS>
                     <RANKING order="1" place="1" resultid="18363" />
                     <RANKING order="2" place="2" resultid="17421" />
@@ -935,12 +935,12 @@
                     <RANKING order="8" place="8" resultid="19108" />
                   </RANKINGS>
                 </AGEGROUP>
-                <AGEGROUP agegroupid="9777" agemax="20" agemin="19" name="Junioren I">
+                <AGEGROUP agegroupid="9777" agemax="20" agemin="19" name="Breedy Badger">
                   <RANKINGS>
                     <RANKING order="1" place="1" resultid="19766" />
                   </RANKINGS>
                 </AGEGROUP>
-                <AGEGROUP agegroupid="9778" agemax="-1" agemin="21" name="Allgemeine Klasse">
+                <AGEGROUP agegroupid="9778" agemax="-1" agemin="21" name="Breedy Badger">
                   <RANKINGS>
                     <RANKING order="1" place="1" resultid="17491" />
                     <RANKING order="2" place="2" resultid="19048" />
@@ -967,7 +967,7 @@
               <SWIMSTYLE distance="50" relaycount="1" stroke="BACK" />
               <FEE currency="EUR" value="450" />
               <AGEGROUPS>
-                <AGEGROUP agegroupid="9791" agemax="10" agemin="-1" name="Schüler II">
+                <AGEGROUP agegroupid="9791" agemax="10" agemin="-1" name="Breedy Badger">
                   <RANKINGS>
                     <RANKING order="1" place="1" resultid="18786" />
                     <RANKING order="2" place="2" resultid="17929" />
@@ -997,7 +997,7 @@
                     <RANKING order="26" place="26" resultid="18811" />
                   </RANKINGS>
                 </AGEGROUP>
-                <AGEGROUP agegroupid="9758" agemax="12" agemin="11" name="Schüler I">
+                <AGEGROUP agegroupid="9758" agemax="12" agemin="11" name="Breedy Badger">
                   <RANKINGS>
                     <RANKING order="1" place="1" resultid="16863" />
                     <RANKING order="2" place="2" resultid="16943" />
@@ -1021,7 +1021,7 @@
                     <RANKING order="20" place="-1" resultid="18719" />
                   </RANKINGS>
                 </AGEGROUP>
-                <AGEGROUP agegroupid="9759" agemax="14" agemin="13" name="Jugend">
+                <AGEGROUP agegroupid="9759" agemax="14" agemin="13" name="Breedy Badger">
                   <RANKINGS>
                     <RANKING order="1" place="1" resultid="19151" />
                     <RANKING order="2" place="2" resultid="18923" />
@@ -1041,7 +1041,7 @@
                     <RANKING order="16" place="16" resultid="17374" />
                   </RANKINGS>
                 </AGEGROUP>
-                <AGEGROUP agegroupid="9760" agemax="16" agemin="15" name="Junioren II">
+                <AGEGROUP agegroupid="9760" agemax="16" agemin="15" name="Breedy Badger">
                   <RANKINGS>
                     <RANKING order="1" place="1" resultid="17794" />
                     <RANKING order="2" place="2" resultid="16693" />
@@ -1061,7 +1061,7 @@
                     <RANKING order="16" place="16" resultid="18995" />
                   </RANKINGS>
                 </AGEGROUP>
-                <AGEGROUP agegroupid="9761" agemax="18" agemin="17" name="Junioren I">
+                <AGEGROUP agegroupid="9761" agemax="18" agemin="17" name="Breedy Badger">
                   <RANKINGS>
                     <RANKING order="1" place="1" resultid="18525" />
                     <RANKING order="2" place="2" resultid="17544" />
@@ -1074,7 +1074,7 @@
                     <RANKING order="9" place="9" resultid="16403" />
                   </RANKINGS>
                 </AGEGROUP>
-                <AGEGROUP agegroupid="9762" agemax="-1" agemin="19" name="Allgemeine Klasse" />
+                <AGEGROUP agegroupid="9762" agemax="-1" agemin="19" name="Breedy Badger" />
               </AGEGROUPS>
               <HEATS>
                 <HEAT heatid="19833" daytime="11:50" number="1" order="1" status="OFFICIAL" />
@@ -1093,19 +1093,19 @@
             </EVENT>
           </EVENTS>
         </SESSION>
-        <SESSION date="2016-05-07" daytime="14:45" name="Wettkampfabschnitt 2" number="2">
+        <SESSION date="2016-05-07" daytime="14:45" name="Breedy Badger" number="2">
           <EVENTS>
             <EVENT eventid="15984" daytime="18:10" number="196" order="16" round="TIM" preveventid="-1">
               <SWIMSTYLE distance="50" relaycount="1" stroke="FREE" />
               <AGEGROUPS>
-                <AGEGROUP agegroupid="15985" agemax="-1" agemin="-1" gender="F" name="KO-Finale">
+                <AGEGROUP agegroupid="15985" agemax="-1" agemin="-1" gender="F" name="Breedy Badger">
                   <RANKINGS>
                     <RANKING order="1" place="1" resultid="20157" />
                     <RANKING order="2" place="2" resultid="20188" />
                     <RANKING order="3" place="3" resultid="20171" />
                   </RANKINGS>
                 </AGEGROUP>
-                <AGEGROUP agegroupid="15986" agemax="-1" agemin="-1" gender="M" name="KO-Finale">
+                <AGEGROUP agegroupid="15986" agemax="-1" agemin="-1" gender="M" name="Breedy Badger">
                   <RANKINGS>
                     <RANKING order="1" place="1" resultid="20228" />
                     <RANKING order="2" place="2" resultid="20231" />
@@ -1122,7 +1122,7 @@
               <SWIMSTYLE distance="200" relaycount="1" stroke="BACK" />
               <FEE currency="EUR" value="450" />
               <AGEGROUPS>
-                <AGEGROUP agegroupid="9803" agemax="12" agemin="11" name="Schüler I">
+                <AGEGROUP agegroupid="9803" agemax="12" agemin="11" name="Breedy Badger">
                   <RANKINGS>
                     <RANKING order="1" place="1" resultid="16867" />
                     <RANKING order="2" place="2" resultid="16583" />
@@ -1152,7 +1152,7 @@
                     <RANKING order="26" place="-1" resultid="18722" />
                   </RANKINGS>
                 </AGEGROUP>
-                <AGEGROUP agegroupid="9804" agemax="14" agemin="13" name="Jugend">
+                <AGEGROUP agegroupid="9804" agemax="14" agemin="13" name="Breedy Badger">
                   <RANKINGS>
                     <RANKING order="1" place="1" resultid="18853" />
                     <RANKING order="2" place="2" resultid="17583" />
@@ -1184,7 +1184,7 @@
                     <RANKING order="28" place="-1" resultid="19018" />
                   </RANKINGS>
                 </AGEGROUP>
-                <AGEGROUP agegroupid="9805" agemax="16" agemin="15" name="Junioren II">
+                <AGEGROUP agegroupid="9805" agemax="16" agemin="15" name="Breedy Badger">
                   <RANKINGS>
                     <RANKING order="1" place="1" resultid="16696" />
                     <RANKING order="2" place="2" resultid="18266" />
@@ -1203,7 +1203,7 @@
                     <RANKING order="15" place="15" resultid="18870" />
                   </RANKINGS>
                 </AGEGROUP>
-                <AGEGROUP agegroupid="9806" agemax="18" agemin="17" name="Junioren I">
+                <AGEGROUP agegroupid="9806" agemax="18" agemin="17" name="Breedy Badger">
                   <RANKINGS>
                     <RANKING order="1" place="1" resultid="18527" />
                     <RANKING order="2" place="2" resultid="17775" />
@@ -1215,7 +1215,7 @@
                     <RANKING order="8" place="-1" resultid="17852" />
                   </RANKINGS>
                 </AGEGROUP>
-                <AGEGROUP agegroupid="9807" agemax="-1" agemin="19" name="Allgemeine Klasse">
+                <AGEGROUP agegroupid="9807" agemax="-1" agemin="19" name="Breedy Badger">
                   <RANKINGS>
                     <RANKING order="1" place="1" resultid="19243" />
                     <RANKING order="2" place="2" resultid="16413" />
@@ -1239,7 +1239,7 @@
             <EVENT eventid="15921" daytime="17:55" number="191" order="11" round="TIM" preveventid="-1">
               <SWIMSTYLE distance="50" relaycount="1" stroke="FREE" />
               <AGEGROUPS>
-                <AGEGROUP agegroupid="15971" agemax="-1" agemin="-1" gender="F" name="KO-Finale">
+                <AGEGROUP agegroupid="15971" agemax="-1" agemin="-1" gender="F" name="Breedy Badger">
                   <RANKINGS>
                     <RANKING order="1" place="1" resultid="20180" />
                     <RANKING order="2" place="2" resultid="20166" />
@@ -1251,7 +1251,7 @@
                     <RANKING order="8" place="8" resultid="20194" />
                   </RANKINGS>
                 </AGEGROUP>
-                <AGEGROUP agegroupid="15928" agemax="-1" agemin="-1" gender="M" name="KO-Finale">
+                <AGEGROUP agegroupid="15928" agemax="-1" agemin="-1" gender="M" name="Breedy Badger">
                   <RANKINGS>
                     <RANKING order="1" place="1" resultid="20209" />
                     <RANKING order="2" place="2" resultid="20222" />
@@ -1272,13 +1272,13 @@
             <EVENT eventid="15987" daytime="18:13" number="197" order="17" round="TIM" preveventid="-1">
               <SWIMSTYLE distance="50" relaycount="1" stroke="FREE" />
               <AGEGROUPS>
-                <AGEGROUP agegroupid="15988" agemax="-1" agemin="-1" gender="F" name="KO-Finale">
+                <AGEGROUP agegroupid="15988" agemax="-1" agemin="-1" gender="F" name="Breedy Badger">
                   <RANKINGS>
                     <RANKING order="1" place="1" resultid="20187" />
                     <RANKING order="2" place="2" resultid="20158" />
                   </RANKINGS>
                 </AGEGROUP>
-                <AGEGROUP agegroupid="15989" agemax="-1" agemin="-1" gender="M" name="KO-Finale">
+                <AGEGROUP agegroupid="15989" agemax="-1" agemin="-1" gender="M" name="Breedy Badger">
                   <RANKINGS>
                     <RANKING order="1" place="1" resultid="20229" />
                     <RANKING order="2" place="2" resultid="20230" />
@@ -1293,7 +1293,7 @@
             <EVENT eventid="15972" daytime="17:58" number="192" order="12" round="TIM" preveventid="-1">
               <SWIMSTYLE distance="50" relaycount="1" stroke="FREE" />
               <AGEGROUPS>
-                <AGEGROUP agegroupid="15973" agemax="-1" agemin="-1" gender="F" name="KO-Finale">
+                <AGEGROUP agegroupid="15973" agemax="-1" agemin="-1" gender="F" name="Breedy Badger">
                   <RANKINGS>
                     <RANKING order="1" place="1" resultid="20152" />
                     <RANKING order="2" place="2" resultid="20160" />
@@ -1305,7 +1305,7 @@
                     <RANKING order="8" place="-1" resultid="20203" />
                   </RANKINGS>
                 </AGEGROUP>
-                <AGEGROUP agegroupid="15974" agemax="-1" agemin="-1" gender="M" name="KO-Finale">
+                <AGEGROUP agegroupid="15974" agemax="-1" agemin="-1" gender="M" name="Breedy Badger">
                   <RANKINGS>
                     <RANKING order="1" place="1" resultid="20224" />
                     <RANKING order="2" place="2" resultid="20210" />
@@ -1325,7 +1325,7 @@
             <EVENT eventid="15981" daytime="18:07" number="195" order="15" round="TIM" preveventid="-1">
               <SWIMSTYLE distance="50" relaycount="1" stroke="FREE" />
               <AGEGROUPS>
-                <AGEGROUP agegroupid="15982" agemax="-1" agemin="-1" gender="F" name="KO-Finale">
+                <AGEGROUP agegroupid="15982" agemax="-1" agemin="-1" gender="F" name="Breedy Badger">
                   <RANKINGS>
                     <RANKING order="1" place="1" resultid="20189" />
                     <RANKING order="2" place="2" resultid="20156" />
@@ -1333,7 +1333,7 @@
                     <RANKING order="4" place="4" resultid="20163" />
                   </RANKINGS>
                 </AGEGROUP>
-                <AGEGROUP agegroupid="15983" agemax="-1" agemin="-1" gender="M" name="KO-Finale">
+                <AGEGROUP agegroupid="15983" agemax="-1" agemin="-1" gender="M" name="Breedy Badger">
                   <RANKINGS>
                     <RANKING order="1" place="1" resultid="20232" />
                     <RANKING order="2" place="2" resultid="20213" />
@@ -1351,7 +1351,7 @@
               <SWIMSTYLE distance="200" relaycount="1" stroke="BREAST" />
               <FEE currency="EUR" value="450" />
               <AGEGROUPS>
-                <AGEGROUP agegroupid="9793" agemax="12" agemin="11" name="Schüler I">
+                <AGEGROUP agegroupid="9793" agemax="12" agemin="11" name="Breedy Badger">
                   <RANKINGS>
                     <RANKING order="1" place="1" resultid="16865" />
                     <RANKING order="2" place="2" resultid="18891" />
@@ -1370,7 +1370,7 @@
                     <RANKING order="15" place="15" resultid="16968" />
                   </RANKINGS>
                 </AGEGROUP>
-                <AGEGROUP agegroupid="9794" agemax="14" agemin="13" name="Jugend">
+                <AGEGROUP agegroupid="9794" agemax="14" agemin="13" name="Breedy Badger">
                   <RANKINGS>
                     <RANKING order="1" place="1" resultid="18851" />
                     <RANKING order="2" place="2" resultid="18291" />
@@ -1395,7 +1395,7 @@
                     <RANKING order="21" place="-1" resultid="19017" />
                   </RANKINGS>
                 </AGEGROUP>
-                <AGEGROUP agegroupid="9795" agemax="16" agemin="15" name="Junioren II">
+                <AGEGROUP agegroupid="9795" agemax="16" agemin="15" name="Breedy Badger">
                   <RANKINGS>
                     <RANKING order="1" place="1" resultid="18403" />
                     <RANKING order="2" place="2" resultid="18564" />
@@ -1405,7 +1405,7 @@
                     <RANKING order="6" place="6" resultid="17279" />
                   </RANKINGS>
                 </AGEGROUP>
-                <AGEGROUP agegroupid="9796" agemax="18" agemin="17" name="Junioren I">
+                <AGEGROUP agegroupid="9796" agemax="18" agemin="17" name="Breedy Badger">
                   <RANKINGS>
                     <RANKING order="1" place="1" resultid="17145" />
                     <RANKING order="2" place="2" resultid="18580" />
@@ -1413,7 +1413,7 @@
                     <RANKING order="4" place="4" resultid="17046" />
                   </RANKINGS>
                 </AGEGROUP>
-                <AGEGROUP agegroupid="9797" agemax="-1" agemin="19" name="Allgemeine Klasse">
+                <AGEGROUP agegroupid="9797" agemax="-1" agemin="19" name="Breedy Badger">
                   <RANKINGS>
                     <RANKING order="1" place="1" resultid="18394" />
                     <RANKING order="2" place="2" resultid="18593" />
@@ -1435,7 +1435,7 @@
             <EVENT eventid="15978" daytime="18:04" number="194" order="14" round="TIM" preveventid="-1">
               <SWIMSTYLE distance="50" relaycount="1" stroke="FREE" />
               <AGEGROUPS>
-                <AGEGROUP agegroupid="15979" agemax="-1" agemin="-1" gender="F" name="KO-Finale">
+                <AGEGROUP agegroupid="15979" agemax="-1" agemin="-1" gender="F" name="Breedy Badger">
                   <RANKINGS>
                     <RANKING order="1" place="1" resultid="20155" />
                     <RANKING order="2" place="2" resultid="20169" />
@@ -1444,7 +1444,7 @@
                     <RANKING order="5" place="5" resultid="20176" />
                   </RANKINGS>
                 </AGEGROUP>
-                <AGEGROUP agegroupid="15980" agemax="-1" agemin="-1" gender="M" name="KO-Finale">
+                <AGEGROUP agegroupid="15980" agemax="-1" agemin="-1" gender="M" name="Breedy Badger">
                   <RANKINGS>
                     <RANKING order="1" place="1" resultid="20233" />
                     <RANKING order="2" place="2" resultid="20212" />
@@ -1462,7 +1462,7 @@
             <EVENT eventid="20145" gender="F" number="190" order="9" round="TIM" preveventid="-1">
               <SWIMSTYLE distance="50" relaycount="1" stroke="FREE" />
               <AGEGROUPS>
-                <AGEGROUP agegroupid="20146" agemax="-1" agemin="-1" name="Swim-Off">
+                <AGEGROUP agegroupid="20146" agemax="-1" agemin="-1" name="Breedy Badger">
                   <RANKINGS>
                     <RANKING order="1" place="1" resultid="20149" />
                     <RANKING order="2" place="2" resultid="20150" />
@@ -1477,7 +1477,7 @@
               <SWIMSTYLE distance="100" relaycount="1" stroke="FLY" />
               <FEE currency="EUR" value="450" />
               <AGEGROUPS>
-                <AGEGROUP agegroupid="9826" agemax="12" agemin="11" name="Schüler II">
+                <AGEGROUP agegroupid="9826" agemax="12" agemin="11" name="Breedy Badger">
                   <RANKINGS>
                     <RANKING order="1" place="1" resultid="19062" />
                     <RANKING order="2" place="2" resultid="16600" />
@@ -1487,7 +1487,7 @@
                     <RANKING order="6" place="6" resultid="16935" />
                   </RANKINGS>
                 </AGEGROUP>
-                <AGEGROUP agegroupid="9827" agemax="14" agemin="13" name="Schüler I">
+                <AGEGROUP agegroupid="9827" agemax="14" agemin="13" name="Breedy Badger">
                   <RANKINGS>
                     <RANKING order="1" place="1" resultid="16741" />
                     <RANKING order="2" place="2" resultid="17756" />
@@ -1502,7 +1502,7 @@
                     <RANKING order="11" place="11" resultid="16428" />
                   </RANKINGS>
                 </AGEGROUP>
-                <AGEGROUP agegroupid="9828" agemax="16" agemin="15" name="Jugend">
+                <AGEGROUP agegroupid="9828" agemax="16" agemin="15" name="Breedy Badger">
                   <RANKINGS>
                     <RANKING order="1" place="1" resultid="17723" />
                     <RANKING order="2" place="2" resultid="18601" />
@@ -1522,7 +1522,7 @@
                     <RANKING order="16" place="16" resultid="16485" />
                   </RANKINGS>
                 </AGEGROUP>
-                <AGEGROUP agegroupid="9829" agemax="18" agemin="17" name="Junioren II">
+                <AGEGROUP agegroupid="9829" agemax="18" agemin="17" name="Breedy Badger">
                   <RANKINGS>
                     <RANKING order="1" place="1" resultid="18365" />
                     <RANKING order="2" place="2" resultid="17765" />
@@ -1537,12 +1537,12 @@
                     <RANKING order="11" place="11" resultid="18134" />
                   </RANKINGS>
                 </AGEGROUP>
-                <AGEGROUP agegroupid="9830" agemax="20" agemin="19" name="Junioren I">
+                <AGEGROUP agegroupid="9830" agemax="20" agemin="19" name="Breedy Badger">
                   <RANKINGS>
                     <RANKING order="1" place="1" resultid="17253" />
                   </RANKINGS>
                 </AGEGROUP>
-                <AGEGROUP agegroupid="9831" agemax="-1" agemin="21" name="Allgemeine Klasse">
+                <AGEGROUP agegroupid="9831" agemax="-1" agemin="21" name="Breedy Badger">
                   <RANKINGS>
                     <RANKING order="1" place="1" resultid="18605" />
                     <RANKING order="2" place="2" resultid="17493" />
@@ -1568,7 +1568,7 @@
             <EVENT eventid="15975" daytime="18:01" number="193" order="13" round="TIM" preveventid="-1">
               <SWIMSTYLE distance="50" relaycount="1" stroke="FREE" />
               <AGEGROUPS>
-                <AGEGROUP agegroupid="15976" agemax="-1" agemin="-1" gender="F" name="KO-Finale">
+                <AGEGROUP agegroupid="15976" agemax="-1" agemin="-1" gender="F" name="Breedy Badger">
                   <RANKINGS>
                     <RANKING order="1" place="1" resultid="20153" />
                     <RANKING order="2" place="2" resultid="20168" />
@@ -1578,7 +1578,7 @@
                     <RANKING order="6" place="6" resultid="20268" />
                   </RANKINGS>
                 </AGEGROUP>
-                <AGEGROUP agegroupid="15977" agemax="-1" agemin="-1" gender="M" name="KO-Finale">
+                <AGEGROUP agegroupid="15977" agemax="-1" agemin="-1" gender="M" name="Breedy Badger">
                   <RANKINGS>
                     <RANKING order="1" place="1" resultid="20225" />
                     <RANKING order="2" place="2" resultid="20234" />
@@ -1598,7 +1598,7 @@
               <SWIMSTYLE distance="50" relaycount="1" stroke="FREE" />
               <FEE currency="EUR" value="450" />
               <AGEGROUPS>
-                <AGEGROUP agegroupid="12822" agemax="10" agemin="-1" name="Schüler II">
+                <AGEGROUP agegroupid="12822" agemax="10" agemin="-1" name="Breedy Badger">
                   <RANKINGS>
                     <RANKING order="1" place="1" resultid="18787" />
                     <RANKING order="2" place="2" resultid="17930" />
@@ -1630,7 +1630,7 @@
                     <RANKING order="28" place="28" resultid="18812" />
                   </RANKINGS>
                 </AGEGROUP>
-                <AGEGROUP agegroupid="12823" agemax="12" agemin="11" name="Schüler I">
+                <AGEGROUP agegroupid="12823" agemax="12" agemin="11" name="Breedy Badger">
                   <RANKINGS>
                     <RANKING order="1" place="1" resultid="17509" />
                     <RANKING order="2" place="2" resultid="19316" />
@@ -1660,7 +1660,7 @@
                     <RANKING order="26" place="26" resultid="16989" />
                   </RANKINGS>
                 </AGEGROUP>
-                <AGEGROUP agegroupid="12824" agemax="14" agemin="13" name="Jugend">
+                <AGEGROUP agegroupid="12824" agemax="14" agemin="13" name="Breedy Badger">
                   <RANKINGS>
                     <RANKING order="1" place="1" resultid="18339" />
                     <RANKING order="2" place="2" resultid="18571" />
@@ -1705,7 +1705,7 @@
                     <RANKING order="41" place="41" resultid="18045" />
                   </RANKINGS>
                 </AGEGROUP>
-                <AGEGROUP agegroupid="12825" agemax="16" agemin="15" name="Junioren II">
+                <AGEGROUP agegroupid="12825" agemax="16" agemin="15" name="Breedy Badger">
                   <RANKINGS>
                     <RANKING order="1" place="1" resultid="17915" />
                     <RANKING order="2" place="2" resultid="17560" />
@@ -1741,7 +1741,7 @@
                     <RANKING order="32" place="32" resultid="18752" />
                   </RANKINGS>
                 </AGEGROUP>
-                <AGEGROUP agegroupid="12826" agemax="18" agemin="17" name="Junioren I">
+                <AGEGROUP agegroupid="12826" agemax="18" agemin="17" name="Breedy Badger">
                   <RANKINGS>
                     <RANKING order="1" place="1" resultid="18657" />
                     <RANKING order="2" place="2" resultid="17847" />
@@ -1765,7 +1765,7 @@
                     <RANKING order="20" place="20" resultid="16405" />
                   </RANKINGS>
                 </AGEGROUP>
-                <AGEGROUP agegroupid="12827" agemax="-1" agemin="19" name="Allgemeine Klasse">
+                <AGEGROUP agegroupid="12827" agemax="-1" agemin="19" name="Breedy Badger">
                   <RANKINGS>
                     <RANKING order="1" place="1" resultid="18395" />
                     <RANKING order="2" place="2" resultid="19715" />
@@ -1778,7 +1778,7 @@
                     <RANKING order="9" place="9" resultid="18030" />
                   </RANKINGS>
                 </AGEGROUP>
-                <AGEGROUP agegroupid="12835" agemax="-1" agemin="-1" name="Qualifikation KO-Finale">
+                <AGEGROUP agegroupid="12835" agemax="-1" agemin="-1" name="Breedy Badger">
                   <RANKINGS>
                     <RANKING order="1" place="1" resultid="18657" />
                     <RANKING order="2" place="2" resultid="17915" />
@@ -1967,7 +1967,7 @@
               <SWIMSTYLE distance="50" relaycount="1" stroke="FREE" />
               <FEE currency="EUR" value="450" />
               <AGEGROUPS>
-                <AGEGROUP agegroupid="12828" agemax="10" agemin="-1" name="Schüler III">
+                <AGEGROUP agegroupid="12828" agemax="10" agemin="-1" name="Breedy Badger">
                   <RANKINGS>
                     <RANKING order="1" place="1" resultid="19070" />
                     <RANKING order="2" place="2" resultid="18807" />
@@ -1979,7 +1979,7 @@
                     <RANKING order="8" place="8" resultid="17973" />
                   </RANKINGS>
                 </AGEGROUP>
-                <AGEGROUP agegroupid="12829" agemax="12" agemin="11" name="Schüler II">
+                <AGEGROUP agegroupid="12829" agemax="12" agemin="11" name="Breedy Badger">
                   <RANKINGS>
                     <RANKING order="1" place="1" resultid="18672" />
                     <RANKING order="2" place="2" resultid="17537" />
@@ -1999,7 +1999,7 @@
                     <RANKING order="16" place="-1" resultid="16617" />
                   </RANKINGS>
                 </AGEGROUP>
-                <AGEGROUP agegroupid="12830" agemax="14" agemin="13" name="Schüler I">
+                <AGEGROUP agegroupid="12830" agemax="14" agemin="13" name="Breedy Badger">
                   <RANKINGS>
                     <RANKING order="1" place="1" resultid="18597" />
                     <RANKING order="2" place="2" resultid="17868" />
@@ -2029,7 +2029,7 @@
                     <RANKING order="26" place="26" resultid="16427" />
                   </RANKINGS>
                 </AGEGROUP>
-                <AGEGROUP agegroupid="12831" agemax="16" agemin="15" name="Jugend">
+                <AGEGROUP agegroupid="12831" agemax="16" agemin="15" name="Breedy Badger">
                   <RANKINGS>
                     <RANKING order="1" place="1" resultid="18956" />
                     <RANKING order="2" place="2" resultid="18425" />
@@ -2059,7 +2059,7 @@
                     <RANKING order="26" place="26" resultid="17380" />
                   </RANKINGS>
                 </AGEGROUP>
-                <AGEGROUP agegroupid="12832" agemax="18" agemin="17" name="Junioren II">
+                <AGEGROUP agegroupid="12832" agemax="18" agemin="17" name="Breedy Badger">
                   <RANKINGS>
                     <RANKING order="1" place="1" resultid="18364" />
                     <RANKING order="2" place="2" resultid="17470" />
@@ -2077,7 +2077,7 @@
                     <RANKING order="14" place="14" resultid="17023" />
                   </RANKINGS>
                 </AGEGROUP>
-                <AGEGROUP agegroupid="12833" agemax="20" agemin="19" name="Junioren I">
+                <AGEGROUP agegroupid="12833" agemax="20" agemin="19" name="Breedy Badger">
                   <RANKINGS>
                     <RANKING order="1" place="1" resultid="17408" />
                     <RANKING order="2" place="2" resultid="17678" />
@@ -2085,7 +2085,7 @@
                     <RANKING order="4" place="4" resultid="19735" />
                   </RANKINGS>
                 </AGEGROUP>
-                <AGEGROUP agegroupid="12834" agemax="-1" agemin="21" name="Allgemeine Klasse">
+                <AGEGROUP agegroupid="12834" agemax="-1" agemin="21" name="Breedy Badger">
                   <RANKINGS>
                     <RANKING order="1" place="1" resultid="19050" />
                     <RANKING order="2" place="2" resultid="19187" />
@@ -2105,7 +2105,7 @@
                     <RANKING order="16" place="16" resultid="16421" />
                   </RANKINGS>
                 </AGEGROUP>
-                <AGEGROUP agegroupid="12852" agemax="-1" agemin="-1" name="Qualifikation KO-Finale">
+                <AGEGROUP agegroupid="12852" agemax="-1" agemin="-1" name="Breedy Badger">
                   <RANKINGS>
                     <RANKING order="1" place="1" resultid="19050" />
                     <RANKING order="2" place="2" resultid="19187" />
@@ -2242,7 +2242,7 @@
               <SWIMSTYLE distance="100" relaycount="1" stroke="FLY" />
               <FEE currency="EUR" value="450" />
               <AGEGROUPS>
-                <AGEGROUP agegroupid="9798" agemax="12" agemin="11" name="Schüler I">
+                <AGEGROUP agegroupid="9798" agemax="12" agemin="11" name="Breedy Badger">
                   <RANKINGS>
                     <RANKING order="1" place="1" resultid="16866" />
                     <RANKING order="2" place="2" resultid="16582" />
@@ -2263,7 +2263,7 @@
                     <RANKING order="17" place="-1" resultid="18721" />
                   </RANKINGS>
                 </AGEGROUP>
-                <AGEGROUP agegroupid="9799" agemax="14" agemin="13" name="Jugend">
+                <AGEGROUP agegroupid="9799" agemax="14" agemin="13" name="Breedy Badger">
                   <RANKINGS>
                     <RANKING order="1" place="1" resultid="18572" />
                     <RANKING order="2" place="2" resultid="19152" />
@@ -2283,7 +2283,7 @@
                     <RANKING order="16" place="-1" resultid="17803" />
                   </RANKINGS>
                 </AGEGROUP>
-                <AGEGROUP agegroupid="9800" agemax="16" agemin="15" name="Junioren II">
+                <AGEGROUP agegroupid="9800" agemax="16" agemin="15" name="Breedy Badger">
                   <RANKINGS>
                     <RANKING order="1" place="1" resultid="16635" />
                     <RANKING order="2" place="2" resultid="18576" />
@@ -2298,7 +2298,7 @@
                     <RANKING order="11" place="11" resultid="16477" />
                   </RANKINGS>
                 </AGEGROUP>
-                <AGEGROUP agegroupid="9801" agemax="18" agemin="17" name="Junioren I">
+                <AGEGROUP agegroupid="9801" agemax="18" agemin="17" name="Breedy Badger">
                   <RANKINGS>
                     <RANKING order="1" place="1" resultid="19731" />
                     <RANKING order="2" place="2" resultid="19180" />
@@ -2314,7 +2314,7 @@
                     <RANKING order="12" place="-1" resultid="18526" />
                   </RANKINGS>
                 </AGEGROUP>
-                <AGEGROUP agegroupid="9802" agemax="-1" agemin="19" name="Allgemeine Klasse">
+                <AGEGROUP agegroupid="9802" agemax="-1" agemin="19" name="Breedy Badger">
                   <RANKINGS>
                     <RANKING order="1" place="1" resultid="18535" />
                     <RANKING order="2" place="2" resultid="18396" />
@@ -2338,7 +2338,7 @@
               <SWIMSTYLE distance="200" relaycount="1" stroke="BACK" />
               <FEE currency="EUR" value="450" />
               <AGEGROUPS>
-                <AGEGROUP agegroupid="9832" agemax="12" agemin="11" name="Schüler II">
+                <AGEGROUP agegroupid="9832" agemax="12" agemin="11" name="Breedy Badger">
                   <RANKINGS>
                     <RANKING order="1" place="1" resultid="18197" />
                     <RANKING order="2" place="2" resultid="17296" />
@@ -2363,7 +2363,7 @@
                     <RANKING order="21" place="-1" resultid="17416" />
                   </RANKINGS>
                 </AGEGROUP>
-                <AGEGROUP agegroupid="9833" agemax="14" agemin="13" name="Schüler I">
+                <AGEGROUP agegroupid="9833" agemax="14" agemin="13" name="Breedy Badger">
                   <RANKINGS>
                     <RANKING order="1" place="1" resultid="17869" />
                     <RANKING order="2" place="2" resultid="16742" />
@@ -2384,7 +2384,7 @@
                     <RANKING order="17" place="17" resultid="16925" />
                   </RANKINGS>
                 </AGEGROUP>
-                <AGEGROUP agegroupid="9834" agemax="16" agemin="15" name="Jugend">
+                <AGEGROUP agegroupid="9834" agemax="16" agemin="15" name="Breedy Badger">
                   <RANKINGS>
                     <RANKING order="1" place="1" resultid="17708" />
                     <RANKING order="2" place="2" resultid="18628" />
@@ -2400,7 +2400,7 @@
                     <RANKING order="12" place="12" resultid="16486" />
                   </RANKINGS>
                 </AGEGROUP>
-                <AGEGROUP agegroupid="9835" agemax="18" agemin="17" name="Junioren II">
+                <AGEGROUP agegroupid="9835" agemax="18" agemin="17" name="Breedy Badger">
                   <RANKINGS>
                     <RANKING order="1" place="1" resultid="18792" />
                     <RANKING order="2" place="2" resultid="17688" />
@@ -2411,8 +2411,8 @@
                     <RANKING order="7" place="-1" resultid="17337" />
                   </RANKINGS>
                 </AGEGROUP>
-                <AGEGROUP agegroupid="9836" agemax="20" agemin="19" name="Junioren I" />
-                <AGEGROUP agegroupid="9837" agemax="-1" agemin="21" name="Allgemeine Klasse">
+                <AGEGROUP agegroupid="9836" agemax="20" agemin="19" name="Breedy Badger" />
+                <AGEGROUP agegroupid="9837" agemax="-1" agemin="21" name="Breedy Badger">
                   <RANKINGS>
                     <RANKING order="1" place="1" resultid="17494" />
                     <RANKING order="2" place="2" resultid="17262" />
@@ -2434,7 +2434,7 @@
               <SWIMSTYLE distance="200" relaycount="1" stroke="BREAST" />
               <FEE currency="EUR" value="450" />
               <AGEGROUPS>
-                <AGEGROUP agegroupid="9820" agemax="12" agemin="11" name="Schüler II">
+                <AGEGROUP agegroupid="9820" agemax="12" agemin="11" name="Breedy Badger">
                   <RANKINGS>
                     <RANKING order="1" place="1" resultid="17295" />
                     <RANKING order="2" place="2" resultid="18196" />
@@ -2451,7 +2451,7 @@
                     <RANKING order="13" place="13" resultid="17950" />
                   </RANKINGS>
                 </AGEGROUP>
-                <AGEGROUP agegroupid="9821" agemax="14" agemin="13" name="Schüler I">
+                <AGEGROUP agegroupid="9821" agemax="14" agemin="13" name="Breedy Badger">
                   <RANKINGS>
                     <RANKING order="1" place="1" resultid="17430" />
                     <RANKING order="2" place="2" resultid="18619" />
@@ -2470,7 +2470,7 @@
                     <RANKING order="15" place="15" resultid="16426" />
                   </RANKINGS>
                 </AGEGROUP>
-                <AGEGROUP agegroupid="9822" agemax="16" agemin="15" name="Jugend">
+                <AGEGROUP agegroupid="9822" agemax="16" agemin="15" name="Breedy Badger">
                   <RANKINGS>
                     <RANKING order="1" place="1" resultid="17728" />
                     <RANKING order="2" place="2" resultid="17718" />
@@ -2480,7 +2480,7 @@
                     <RANKING order="6" place="6" resultid="16465" />
                   </RANKINGS>
                 </AGEGROUP>
-                <AGEGROUP agegroupid="9823" agemax="18" agemin="17" name="Junioren II">
+                <AGEGROUP agegroupid="9823" agemax="18" agemin="17" name="Breedy Badger">
                   <RANKINGS>
                     <RANKING order="1" place="1" resultid="17703" />
                     <RANKING order="2" place="2" resultid="17693" />
@@ -2490,13 +2490,13 @@
                     <RANKING order="6" place="6" resultid="18984" />
                   </RANKINGS>
                 </AGEGROUP>
-                <AGEGROUP agegroupid="9824" agemax="20" agemin="19" name="Junioren I">
+                <AGEGROUP agegroupid="9824" agemax="20" agemin="19" name="Breedy Badger">
                   <RANKINGS>
                     <RANKING order="1" place="1" resultid="17252" />
                     <RANKING order="2" place="2" resultid="19734" />
                   </RANKINGS>
                 </AGEGROUP>
-                <AGEGROUP agegroupid="9825" agemax="-1" agemin="21" name="Allgemeine Klasse">
+                <AGEGROUP agegroupid="9825" agemax="-1" agemin="21" name="Breedy Badger">
                   <RANKINGS>
                     <RANKING order="1" place="1" resultid="18612" />
                   </RANKINGS>
@@ -2513,13 +2513,13 @@
             </EVENT>
           </EVENTS>
         </SESSION>
-        <SESSION date="2016-05-08" daytime="09:30" name="Wettkampfabschnitt 3" number="3" warmupfrom="08:30" warmupuntil="09:20">
+        <SESSION date="2016-05-08" daytime="09:30" name="Breedy Badger" number="3" warmupfrom="08:30" warmupuntil="09:20">
           <EVENTS>
             <EVENT eventid="3605" daytime="09:50" gender="M" number="21" order="2" round="TIM" preveventid="-1">
               <SWIMSTYLE distance="100" relaycount="1" stroke="BACK" />
               <FEE currency="EUR" value="450" />
               <AGEGROUPS>
-                <AGEGROUP agegroupid="9895" agemax="12" agemin="11" name="Schüler II">
+                <AGEGROUP agegroupid="9895" agemax="12" agemin="11" name="Breedy Badger">
                   <RANKINGS>
                     <RANKING order="1" place="1" resultid="18198" />
                     <RANKING order="2" place="2" resultid="18717" />
@@ -2544,7 +2544,7 @@
                     <RANKING order="21" place="21" resultid="19103" />
                   </RANKINGS>
                 </AGEGROUP>
-                <AGEGROUP agegroupid="9896" agemax="14" agemin="13" name="Schüler I">
+                <AGEGROUP agegroupid="9896" agemax="14" agemin="13" name="Breedy Badger">
                   <RANKINGS>
                     <RANKING order="1" place="1" resultid="17870" />
                     <RANKING order="2" place="2" resultid="16738" />
@@ -2570,7 +2570,7 @@
                     <RANKING order="22" place="-1" resultid="16784" />
                   </RANKINGS>
                 </AGEGROUP>
-                <AGEGROUP agegroupid="9897" agemax="16" agemin="15" name="Jugend">
+                <AGEGROUP agegroupid="9897" agemax="16" agemin="15" name="Breedy Badger">
                   <RANKINGS>
                     <RANKING order="1" place="1" resultid="17709" />
                     <RANKING order="2" place="2" resultid="18958" />
@@ -2592,7 +2592,7 @@
                     <RANKING order="18" place="18" resultid="18300" />
                   </RANKINGS>
                 </AGEGROUP>
-                <AGEGROUP agegroupid="9898" agemax="18" agemin="17" name="Junioren II">
+                <AGEGROUP agegroupid="9898" agemax="18" agemin="17" name="Breedy Badger">
                   <RANKINGS>
                     <RANKING order="1" place="1" resultid="18366" />
                     <RANKING order="2" place="2" resultid="17689" />
@@ -2605,12 +2605,12 @@
                     <RANKING order="9" place="9" resultid="18135" />
                   </RANKINGS>
                 </AGEGROUP>
-                <AGEGROUP agegroupid="9899" agemax="20" agemin="19" name="Junioren I">
+                <AGEGROUP agegroupid="9899" agemax="20" agemin="19" name="Breedy Badger">
                   <RANKINGS>
                     <RANKING order="1" place="1" resultid="17684" />
                   </RANKINGS>
                 </AGEGROUP>
-                <AGEGROUP agegroupid="9900" agemax="-1" agemin="21" name="Allgemeine Klasse">
+                <AGEGROUP agegroupid="9900" agemax="-1" agemin="21" name="Breedy Badger">
                   <RANKINGS>
                     <RANKING order="1" place="1" resultid="19146" />
                     <RANKING order="2" place="2" resultid="17495" />
@@ -2660,7 +2660,7 @@
               <SWIMSTYLE distance="400" relaycount="1" stroke="FREE" />
               <FEE currency="EUR" value="450" />
               <AGEGROUPS>
-                <AGEGROUP agegroupid="9901" agemax="12" agemin="11" name="Schüler II">
+                <AGEGROUP agegroupid="9901" agemax="12" agemin="11" name="Breedy Badger">
                   <RANKINGS>
                     <RANKING order="1" place="1" resultid="18199" />
                     <RANKING order="2" place="2" resultid="19064" />
@@ -2683,7 +2683,7 @@
                     <RANKING order="19" place="-1" resultid="17417" />
                   </RANKINGS>
                 </AGEGROUP>
-                <AGEGROUP agegroupid="9902" agemax="14" agemin="13" name="Schüler I">
+                <AGEGROUP agegroupid="9902" agemax="14" agemin="13" name="Breedy Badger">
                   <RANKINGS>
                     <RANKING order="1" place="1" resultid="18743" />
                     <RANKING order="2" place="2" resultid="16743" />
@@ -2704,7 +2704,7 @@
                     <RANKING order="17" place="17" resultid="17389" />
                   </RANKINGS>
                 </AGEGROUP>
-                <AGEGROUP agegroupid="9903" agemax="16" agemin="15" name="Jugend">
+                <AGEGROUP agegroupid="9903" agemax="16" agemin="15" name="Breedy Badger">
                   <RANKINGS>
                     <RANKING order="1" place="1" resultid="18172" />
                     <RANKING order="2" place="2" resultid="18428" />
@@ -2721,7 +2721,7 @@
                     <RANKING order="13" place="13" resultid="16469" />
                   </RANKINGS>
                 </AGEGROUP>
-                <AGEGROUP agegroupid="9904" agemax="18" agemin="17" name="Junioren II">
+                <AGEGROUP agegroupid="9904" agemax="18" agemin="17" name="Breedy Badger">
                   <RANKINGS>
                     <RANKING order="1" place="1" resultid="18793" />
                     <RANKING order="2" place="2" resultid="17704" />
@@ -2734,8 +2734,8 @@
                     <RANKING order="9" place="9" resultid="19111" />
                   </RANKINGS>
                 </AGEGROUP>
-                <AGEGROUP agegroupid="9905" agemax="20" agemin="19" name="Junioren I" />
-                <AGEGROUP agegroupid="9906" agemax="-1" agemin="21" name="Allgemeine Klasse">
+                <AGEGROUP agegroupid="9905" agemax="20" agemin="19" name="Breedy Badger" />
+                <AGEGROUP agegroupid="9906" agemax="-1" agemin="21" name="Breedy Badger">
                   <RANKINGS>
                     <RANKING order="1" place="1" resultid="19100" />
                     <RANKING order="2" place="2" resultid="18383" />
@@ -2758,7 +2758,7 @@
               <SWIMSTYLE distance="400" relaycount="1" stroke="FREE" />
               <FEE currency="EUR" value="450" />
               <AGEGROUPS>
-                <AGEGROUP agegroupid="9863" agemax="12" agemin="11" name="Schüler I">
+                <AGEGROUP agegroupid="9863" agemax="12" agemin="11" name="Breedy Badger">
                   <RANKINGS>
                     <RANKING order="1" place="1" resultid="17831" />
                     <RANKING order="2" place="2" resultid="16585" />
@@ -2786,7 +2786,7 @@
                     <RANKING order="24" place="24" resultid="18711" />
                   </RANKINGS>
                 </AGEGROUP>
-                <AGEGROUP agegroupid="9864" agemax="14" agemin="13" name="Jugend">
+                <AGEGROUP agegroupid="9864" agemax="14" agemin="13" name="Breedy Badger">
                   <RANKINGS>
                     <RANKING order="1" place="1" resultid="18342" />
                     <RANKING order="2" place="2" resultid="18351" />
@@ -2821,7 +2821,7 @@
                     <RANKING order="31" place="-1" resultid="17809" />
                   </RANKINGS>
                 </AGEGROUP>
-                <AGEGROUP agegroupid="9865" agemax="16" agemin="15" name="Junioren II">
+                <AGEGROUP agegroupid="9865" agemax="16" agemin="15" name="Breedy Badger">
                   <RANKINGS>
                     <RANKING order="1" place="1" resultid="17796" />
                     <RANKING order="2" place="2" resultid="17556" />
@@ -2840,7 +2840,7 @@
                     <RANKING order="15" place="15" resultid="18872" />
                   </RANKINGS>
                 </AGEGROUP>
-                <AGEGROUP agegroupid="9866" agemax="18" agemin="17" name="Junioren I">
+                <AGEGROUP agegroupid="9866" agemax="18" agemin="17" name="Breedy Badger">
                   <RANKINGS>
                     <RANKING order="1" place="1" resultid="17848" />
                     <RANKING order="2" place="2" resultid="17148" />
@@ -2849,7 +2849,7 @@
                     <RANKING order="5" place="-1" resultid="18324" />
                   </RANKINGS>
                 </AGEGROUP>
-                <AGEGROUP agegroupid="9867" agemax="-1" agemin="19" name="Allgemeine Klasse">
+                <AGEGROUP agegroupid="9867" agemax="-1" agemin="19" name="Breedy Badger">
                   <RANKINGS>
                     <RANKING order="1" place="1" resultid="18397" />
                     <RANKING order="2" place="2" resultid="17893" />
@@ -2903,7 +2903,7 @@
               <SWIMSTYLE distance="50" relaycount="1" stroke="FLY" />
               <FEE currency="EUR" value="450" />
               <AGEGROUPS>
-                <AGEGROUP agegroupid="9883" agemax="10" agemin="-1" name="Schüler II">
+                <AGEGROUP agegroupid="9883" agemax="10" agemin="-1" name="Breedy Badger">
                   <RANKINGS>
                     <RANKING order="1" place="1" resultid="17931" />
                     <RANKING order="2" place="2" resultid="18788" />
@@ -2921,7 +2921,7 @@
                     <RANKING order="14" place="14" resultid="18920" />
                   </RANKINGS>
                 </AGEGROUP>
-                <AGEGROUP agegroupid="9884" agemax="12" agemin="11" name="Schüler I">
+                <AGEGROUP agegroupid="9884" agemax="12" agemin="11" name="Breedy Badger">
                   <RANKINGS>
                     <RANKING order="1" place="1" resultid="16869" />
                     <RANKING order="2" place="2" resultid="17165" />
@@ -2936,7 +2936,7 @@
                     <RANKING order="11" place="11" resultid="18968" />
                   </RANKINGS>
                 </AGEGROUP>
-                <AGEGROUP agegroupid="9885" agemax="14" agemin="13" name="Jugend">
+                <AGEGROUP agegroupid="9885" agemax="14" agemin="13" name="Breedy Badger">
                   <RANKINGS>
                     <RANKING order="1" place="1" resultid="19714" />
                     <RANKING order="2" place="2" resultid="18991" />
@@ -2955,7 +2955,7 @@
                     <RANKING order="15" place="15" resultid="18389" />
                   </RANKINGS>
                 </AGEGROUP>
-                <AGEGROUP agegroupid="9886" agemax="16" agemin="15" name="Junioren II">
+                <AGEGROUP agegroupid="9886" agemax="16" agemin="15" name="Breedy Badger">
                   <RANKINGS>
                     <RANKING order="1" place="1" resultid="17916" />
                     <RANKING order="2" place="2" resultid="16636" />
@@ -2975,7 +2975,7 @@
                     <RANKING order="16" place="16" resultid="16478" />
                   </RANKINGS>
                 </AGEGROUP>
-                <AGEGROUP agegroupid="9887" agemax="18" agemin="17" name="Junioren I">
+                <AGEGROUP agegroupid="9887" agemax="18" agemin="17" name="Breedy Badger">
                   <RANKINGS>
                     <RANKING order="1" place="1" resultid="17771" />
                     <RANKING order="2" place="2" resultid="19182" />
@@ -2989,7 +2989,7 @@
                     <RANKING order="10" place="10" resultid="16446" />
                   </RANKINGS>
                 </AGEGROUP>
-                <AGEGROUP agegroupid="9888" agemax="-1" agemin="19" name="Allgemeine Klasse">
+                <AGEGROUP agegroupid="9888" agemax="-1" agemin="19" name="Breedy Badger">
                   <RANKINGS>
                     <RANKING order="1" place="1" resultid="19039" />
                   </RANKINGS>
@@ -3011,7 +3011,7 @@
               <SWIMSTYLE distance="100" relaycount="1" stroke="BACK" />
               <FEE currency="EUR" value="450" />
               <AGEGROUPS>
-                <AGEGROUP agegroupid="9853" agemax="12" agemin="11" name="Schüler I">
+                <AGEGROUP agegroupid="9853" agemax="12" agemin="11" name="Breedy Badger">
                   <RANKINGS>
                     <RANKING order="1" place="1" resultid="16868" />
                     <RANKING order="2" place="2" resultid="16584" />
@@ -3043,7 +3043,7 @@
                     <RANKING order="28" place="-1" resultid="17863" />
                   </RANKINGS>
                 </AGEGROUP>
-                <AGEGROUP agegroupid="9854" agemax="14" agemin="13" name="Jugend">
+                <AGEGROUP agegroupid="9854" agemax="14" agemin="13" name="Breedy Badger">
                   <RANKINGS>
                     <RANKING order="1" place="1" resultid="19154" />
                     <RANKING order="2" place="2" resultid="18854" />
@@ -3074,7 +3074,7 @@
                     <RANKING order="27" place="27" resultid="18047" />
                   </RANKINGS>
                 </AGEGROUP>
-                <AGEGROUP agegroupid="9855" agemax="16" agemin="15" name="Junioren II">
+                <AGEGROUP agegroupid="9855" agemax="16" agemin="15" name="Breedy Badger">
                   <RANKINGS>
                     <RANKING order="1" place="1" resultid="16697" />
                     <RANKING order="2" place="2" resultid="18127" />
@@ -3089,7 +3089,7 @@
                     <RANKING order="11" place="11" resultid="18871" />
                   </RANKINGS>
                 </AGEGROUP>
-                <AGEGROUP agegroupid="9856" agemax="18" agemin="17" name="Junioren I">
+                <AGEGROUP agegroupid="9856" agemax="18" agemin="17" name="Breedy Badger">
                   <RANKINGS>
                     <RANKING order="1" place="1" resultid="17776" />
                     <RANKING order="2" place="2" resultid="18409" />
@@ -3102,7 +3102,7 @@
                     <RANKING order="9" place="-1" resultid="17551" />
                   </RANKINGS>
                 </AGEGROUP>
-                <AGEGROUP agegroupid="9857" agemax="-1" agemin="19" name="Allgemeine Klasse">
+                <AGEGROUP agegroupid="9857" agemax="-1" agemin="19" name="Breedy Badger">
                   <RANKINGS>
                     <RANKING order="1" place="1" resultid="19038" />
                   </RANKINGS>
@@ -3126,7 +3126,7 @@
               <SWIMSTYLE distance="50" relaycount="1" stroke="FLY" />
               <FEE currency="EUR" value="450" />
               <AGEGROUPS>
-                <AGEGROUP agegroupid="9925" agemax="10" agemin="-1" name="Schüler III">
+                <AGEGROUP agegroupid="9925" agemax="10" agemin="-1" name="Breedy Badger">
                   <RANKINGS>
                     <RANKING order="1" place="1" resultid="19071" />
                     <RANKING order="2" place="2" resultid="18808" />
@@ -3134,7 +3134,7 @@
                     <RANKING order="4" place="4" resultid="18829" />
                   </RANKINGS>
                 </AGEGROUP>
-                <AGEGROUP agegroupid="9926" agemax="12" agemin="11" name="Schüler II">
+                <AGEGROUP agegroupid="9926" agemax="12" agemin="11" name="Breedy Badger">
                   <RANKINGS>
                     <RANKING order="1" place="1" resultid="18208" />
                     <RANKING order="2" place="2" resultid="19227" />
@@ -3146,7 +3146,7 @@
                     <RANKING order="8" place="8" resultid="19104" />
                   </RANKINGS>
                 </AGEGROUP>
-                <AGEGROUP agegroupid="9927" agemax="14" agemin="13" name="Schüler I">
+                <AGEGROUP agegroupid="9927" agemax="14" agemin="13" name="Breedy Badger">
                   <RANKINGS>
                     <RANKING order="1" place="1" resultid="17624" />
                     <RANKING order="2" place="2" resultid="16674" />
@@ -3165,7 +3165,7 @@
                     <RANKING order="15" place="15" resultid="19171" />
                   </RANKINGS>
                 </AGEGROUP>
-                <AGEGROUP agegroupid="9928" agemax="16" agemin="15" name="Jugend">
+                <AGEGROUP agegroupid="9928" agemax="16" agemin="15" name="Breedy Badger">
                   <RANKINGS>
                     <RANKING order="1" place="1" resultid="18427" />
                     <RANKING order="2" place="2" resultid="17859" />
@@ -3185,7 +3185,7 @@
                     <RANKING order="16" place="16" resultid="17381" />
                   </RANKINGS>
                 </AGEGROUP>
-                <AGEGROUP agegroupid="9929" agemax="18" agemin="17" name="Junioren II">
+                <AGEGROUP agegroupid="9929" agemax="18" agemin="17" name="Breedy Badger">
                   <RANKINGS>
                     <RANKING order="1" place="1" resultid="18367" />
                     <RANKING order="2" place="2" resultid="17766" />
@@ -3196,13 +3196,13 @@
                     <RANKING order="7" place="7" resultid="19116" />
                   </RANKINGS>
                 </AGEGROUP>
-                <AGEGROUP agegroupid="9930" agemax="20" agemin="19" name="Junioren I">
+                <AGEGROUP agegroupid="9930" agemax="20" agemin="19" name="Breedy Badger">
                   <RANKINGS>
                     <RANKING order="1" place="1" resultid="17409" />
                     <RANKING order="2" place="2" resultid="17679" />
                   </RANKINGS>
                 </AGEGROUP>
-                <AGEGROUP agegroupid="9931" agemax="-1" agemin="21" name="Allgemeine Klasse">
+                <AGEGROUP agegroupid="9931" agemax="-1" agemin="21" name="Breedy Badger">
                   <RANKINGS>
                     <RANKING order="1" place="1" resultid="19051" />
                     <RANKING order="2" place="2" resultid="19135" />
@@ -3229,13 +3229,13 @@
             </EVENT>
           </EVENTS>
         </SESSION>
-        <SESSION date="2016-05-08" daytime="13:30" name="Wettkampfabschnitt 4" number="4">
+        <SESSION date="2016-05-08" daytime="13:30" name="Breedy Badger" number="4">
           <EVENTS>
             <EVENT eventid="3530" daytime="14:34" gender="M" number="33" order="6" round="TIM" preveventid="-1">
               <SWIMSTYLE distance="100" relaycount="1" stroke="FREE" />
               <FEE currency="EUR" value="450" />
               <AGEGROUPS>
-                <AGEGROUP agegroupid="9913" agemax="12" agemin="11" name="Schüler II">
+                <AGEGROUP agegroupid="9913" agemax="12" agemin="11" name="Breedy Badger">
                   <RANKINGS>
                     <RANKING order="1" place="1" resultid="19066" />
                     <RANKING order="2" place="2" resultid="18201" />
@@ -3267,7 +3267,7 @@
                     <RANKING order="28" place="28" resultid="19106" />
                   </RANKINGS>
                 </AGEGROUP>
-                <AGEGROUP agegroupid="9914" agemax="14" agemin="13" name="Schüler I">
+                <AGEGROUP agegroupid="9914" agemax="14" agemin="13" name="Breedy Badger">
                   <RANKINGS>
                     <RANKING order="1" place="1" resultid="18745" />
                     <RANKING order="2" place="2" resultid="19282" />
@@ -3299,7 +3299,7 @@
                     <RANKING order="28" place="-1" resultid="17625" />
                   </RANKINGS>
                 </AGEGROUP>
-                <AGEGROUP agegroupid="9915" agemax="16" agemin="15" name="Jugend">
+                <AGEGROUP agegroupid="9915" agemax="16" agemin="15" name="Breedy Badger">
                   <RANKINGS>
                     <RANKING order="1" place="1" resultid="18430" />
                     <RANKING order="2" place="2" resultid="17479" />
@@ -3321,7 +3321,7 @@
                     <RANKING order="18" place="-1" resultid="18960" />
                   </RANKINGS>
                 </AGEGROUP>
-                <AGEGROUP agegroupid="9916" agemax="18" agemin="17" name="Junioren II">
+                <AGEGROUP agegroupid="9916" agemax="18" agemin="17" name="Breedy Badger">
                   <RANKINGS>
                     <RANKING order="1" place="1" resultid="18368" />
                     <RANKING order="2" place="2" resultid="19240" />
@@ -3337,14 +3337,14 @@
                     <RANKING order="12" place="12" resultid="18138" />
                   </RANKINGS>
                 </AGEGROUP>
-                <AGEGROUP agegroupid="9917" agemax="20" agemin="19" name="Junioren I">
+                <AGEGROUP agegroupid="9917" agemax="20" agemin="19" name="Breedy Badger">
                   <RANKINGS>
                     <RANKING order="1" place="1" resultid="17411" />
                     <RANKING order="2" place="2" resultid="17680" />
                     <RANKING order="3" place="3" resultid="17685" />
                   </RANKINGS>
                 </AGEGROUP>
-                <AGEGROUP agegroupid="9918" agemax="-1" agemin="21" name="Allgemeine Klasse">
+                <AGEGROUP agegroupid="9918" agemax="-1" agemin="21" name="Breedy Badger">
                   <RANKINGS>
                     <RANKING order="1" place="1" resultid="19052" />
                     <RANKING order="2" place="2" resultid="19136" />
@@ -3380,7 +3380,7 @@
               <SWIMSTYLE distance="100" relaycount="1" stroke="FREE" />
               <FEE currency="EUR" value="450" />
               <AGEGROUPS>
-                <AGEGROUP agegroupid="9873" agemax="12" agemin="11" name="Schüler I">
+                <AGEGROUP agegroupid="9873" agemax="12" agemin="11" name="Breedy Badger">
                   <RANKINGS>
                     <RANKING order="1" place="1" resultid="17510" />
                     <RANKING order="2" place="2" resultid="16586" />
@@ -3419,7 +3419,7 @@
                     <RANKING order="35" place="35" resultid="17864" />
                   </RANKINGS>
                 </AGEGROUP>
-                <AGEGROUP agegroupid="9874" agemax="14" agemin="13" name="Jugend">
+                <AGEGROUP agegroupid="9874" agemax="14" agemin="13" name="Breedy Badger">
                   <RANKINGS>
                     <RANKING order="1" place="1" resultid="16613" />
                     <RANKING order="2" place="2" resultid="18343" />
@@ -3463,7 +3463,7 @@
                     <RANKING order="40" place="40" resultid="17979" />
                   </RANKINGS>
                 </AGEGROUP>
-                <AGEGROUP agegroupid="9875" agemax="16" agemin="15" name="Junioren II">
+                <AGEGROUP agegroupid="9875" agemax="16" agemin="15" name="Breedy Badger">
                   <RANKINGS>
                     <RANKING order="1" place="1" resultid="17186" />
                     <RANKING order="2" place="2" resultid="17562" />
@@ -3488,7 +3488,7 @@
                     <RANKING order="21" place="21" resultid="16481" />
                   </RANKINGS>
                 </AGEGROUP>
-                <AGEGROUP agegroupid="9876" agemax="18" agemin="17" name="Junioren I">
+                <AGEGROUP agegroupid="9876" agemax="18" agemin="17" name="Breedy Badger">
                   <RANKINGS>
                     <RANKING order="1" place="1" resultid="18243" />
                     <RANKING order="2" place="2" resultid="17552" />
@@ -3505,7 +3505,7 @@
                     <RANKING order="13" place="-1" resultid="18326" />
                   </RANKINGS>
                 </AGEGROUP>
-                <AGEGROUP agegroupid="9877" agemax="-1" agemin="19" name="Allgemeine Klasse">
+                <AGEGROUP agegroupid="9877" agemax="-1" agemin="19" name="Breedy Badger">
                   <RANKINGS>
                     <RANKING order="1" place="1" resultid="19040" />
                     <RANKING order="2" place="2" resultid="16417" />
@@ -3534,7 +3534,7 @@
               <SWIMSTYLE distance="50" relaycount="1" stroke="BREAST" />
               <FEE currency="EUR" value="450" />
               <AGEGROUPS>
-                <AGEGROUP agegroupid="9932" agemax="10" agemin="-1" name="Schüler III">
+                <AGEGROUP agegroupid="9932" agemax="10" agemin="-1" name="Breedy Badger">
                   <RANKINGS>
                     <RANKING order="1" place="1" resultid="19280" />
                     <RANKING order="2" place="2" resultid="19072" />
@@ -3547,7 +3547,7 @@
                     <RANKING order="9" place="-1" resultid="17970" />
                   </RANKINGS>
                 </AGEGROUP>
-                <AGEGROUP agegroupid="9933" agemax="12" agemin="11" name="Schüler II">
+                <AGEGROUP agegroupid="9933" agemax="12" agemin="11" name="Breedy Badger">
                   <RANKINGS>
                     <RANKING order="1" place="1" resultid="17957" />
                     <RANKING order="2" place="2" resultid="19065" />
@@ -3566,7 +3566,7 @@
                     <RANKING order="15" place="15" resultid="18209" />
                   </RANKINGS>
                 </AGEGROUP>
-                <AGEGROUP agegroupid="9934" agemax="14" agemin="13" name="Schüler I">
+                <AGEGROUP agegroupid="9934" agemax="14" agemin="13" name="Breedy Badger">
                   <RANKINGS>
                     <RANKING order="1" place="1" resultid="17534" />
                     <RANKING order="2" place="2" resultid="17433" />
@@ -3589,7 +3589,7 @@
                     <RANKING order="19" place="19" resultid="17882" />
                   </RANKINGS>
                 </AGEGROUP>
-                <AGEGROUP agegroupid="9935" agemax="16" agemin="15" name="Jugend">
+                <AGEGROUP agegroupid="9935" agemax="16" agemin="15" name="Breedy Badger">
                   <RANKINGS>
                     <RANKING order="1" place="1" resultid="18173" />
                     <RANKING order="2" place="2" resultid="19078" />
@@ -3601,7 +3601,7 @@
                     <RANKING order="8" place="8" resultid="18164" />
                   </RANKINGS>
                 </AGEGROUP>
-                <AGEGROUP agegroupid="9936" agemax="18" agemin="17" name="Junioren II">
+                <AGEGROUP agegroupid="9936" agemax="18" agemin="17" name="Breedy Badger">
                   <RANKINGS>
                     <RANKING order="1" place="1" resultid="17695" />
                     <RANKING order="2" place="2" resultid="17441" />
@@ -3614,12 +3614,12 @@
                     <RANKING order="9" place="9" resultid="17231" />
                   </RANKINGS>
                 </AGEGROUP>
-                <AGEGROUP agegroupid="9937" agemax="20" agemin="19" name="Junioren I">
+                <AGEGROUP agegroupid="9937" agemax="20" agemin="19" name="Breedy Badger">
                   <RANKINGS>
                     <RANKING order="1" place="1" resultid="17410" />
                   </RANKINGS>
                 </AGEGROUP>
-                <AGEGROUP agegroupid="9938" agemax="-1" agemin="21" name="Allgemeine Klasse">
+                <AGEGROUP agegroupid="9938" agemax="-1" agemin="21" name="Breedy Badger">
                   <RANKINGS>
                     <RANKING order="1" place="1" resultid="19190" />
                     <RANKING order="2" place="2" resultid="17114" />
@@ -3644,7 +3644,7 @@
               <SWIMSTYLE distance="50" relaycount="1" stroke="BREAST" />
               <FEE currency="EUR" value="450" />
               <AGEGROUPS>
-                <AGEGROUP agegroupid="9889" agemax="10" agemin="-1" name="Schüler II">
+                <AGEGROUP agegroupid="9889" agemax="10" agemin="-1" name="Breedy Badger">
                   <RANKINGS>
                     <RANKING order="1" place="1" resultid="18789" />
                     <RANKING order="2" place="2" resultid="19263" />
@@ -3664,7 +3664,7 @@
                     <RANKING order="16" place="16" resultid="18817" />
                   </RANKINGS>
                 </AGEGROUP>
-                <AGEGROUP agegroupid="9890" agemax="12" agemin="11" name="Schüler I">
+                <AGEGROUP agegroupid="9890" agemax="12" agemin="11" name="Breedy Badger">
                   <RANKINGS>
                     <RANKING order="1" place="1" resultid="16836" />
                     <RANKING order="2" place="2" resultid="17899" />
@@ -3682,7 +3682,7 @@
                     <RANKING order="14" place="14" resultid="18962" />
                   </RANKINGS>
                 </AGEGROUP>
-                <AGEGROUP agegroupid="9891" agemax="14" agemin="13" name="Jugend">
+                <AGEGROUP agegroupid="9891" agemax="14" agemin="13" name="Breedy Badger">
                   <RANKINGS>
                     <RANKING order="1" place="1" resultid="19266" />
                     <RANKING order="2" place="2" resultid="18294" />
@@ -3702,7 +3702,7 @@
                     <RANKING order="16" place="16" resultid="17923" />
                   </RANKINGS>
                 </AGEGROUP>
-                <AGEGROUP agegroupid="9892" agemax="16" agemin="15" name="Junioren II">
+                <AGEGROUP agegroupid="9892" agemax="16" agemin="15" name="Breedy Badger">
                   <RANKINGS>
                     <RANKING order="1" place="1" resultid="17918" />
                     <RANKING order="2" place="2" resultid="18407" />
@@ -3713,7 +3713,7 @@
                     <RANKING order="7" place="7" resultid="16480" />
                   </RANKINGS>
                 </AGEGROUP>
-                <AGEGROUP agegroupid="9893" agemax="18" agemin="17" name="Junioren I">
+                <AGEGROUP agegroupid="9893" agemax="18" agemin="17" name="Breedy Badger">
                   <RANKINGS>
                     <RANKING order="1" place="1" resultid="18412" />
                     <RANKING order="2" place="2" resultid="17149" />
@@ -3723,7 +3723,7 @@
                     <RANKING order="6" place="6" resultid="16448" />
                   </RANKINGS>
                 </AGEGROUP>
-                <AGEGROUP agegroupid="9894" agemax="-1" agemin="19" name="Allgemeine Klasse">
+                <AGEGROUP agegroupid="9894" agemax="-1" agemin="19" name="Breedy Badger">
                   <RANKINGS>
                     <RANKING order="1" place="1" resultid="16416" />
                   </RANKINGS>
@@ -3744,12 +3744,12 @@
               <SWIMSTYLE distance="400" relaycount="1" stroke="MEDLEY" />
               <FEE currency="EUR" value="450" />
               <AGEGROUPS>
-                <AGEGROUP agegroupid="9919" agemax="12" agemin="11" name="Schüler II">
+                <AGEGROUP agegroupid="9919" agemax="12" agemin="11" name="Breedy Badger">
                   <RANKINGS>
                     <RANKING order="1" place="1" resultid="19067" />
                   </RANKINGS>
                 </AGEGROUP>
-                <AGEGROUP agegroupid="9920" agemax="14" agemin="13" name="Schüler I">
+                <AGEGROUP agegroupid="9920" agemax="14" agemin="13" name="Breedy Badger">
                   <RANKINGS>
                     <RANKING order="1" place="1" resultid="16744" />
                     <RANKING order="2" place="2" resultid="17762" />
@@ -3763,7 +3763,7 @@
                     <RANKING order="10" place="10" resultid="17590" />
                   </RANKINGS>
                 </AGEGROUP>
-                <AGEGROUP agegroupid="9921" agemax="16" agemin="15" name="Jugend">
+                <AGEGROUP agegroupid="9921" agemax="16" agemin="15" name="Breedy Badger">
                   <RANKINGS>
                     <RANKING order="1" place="1" resultid="17966" />
                     <RANKING order="2" place="2" resultid="17730" />
@@ -3776,7 +3776,7 @@
                     <RANKING order="9" place="-1" resultid="17739" />
                   </RANKINGS>
                 </AGEGROUP>
-                <AGEGROUP agegroupid="9922" agemax="18" agemin="17" name="Junioren II">
+                <AGEGROUP agegroupid="9922" agemax="18" agemin="17" name="Breedy Badger">
                   <RANKINGS>
                     <RANKING order="1" place="1" resultid="17705" />
                     <RANKING order="2" place="2" resultid="18794" />
@@ -3784,8 +3784,8 @@
                     <RANKING order="4" place="4" resultid="17103" />
                   </RANKINGS>
                 </AGEGROUP>
-                <AGEGROUP agegroupid="9923" agemax="20" agemin="19" name="Junioren I" />
-                <AGEGROUP agegroupid="9924" agemax="-1" agemin="21" name="Allgemeine Klasse">
+                <AGEGROUP agegroupid="9923" agemax="20" agemin="19" name="Breedy Badger" />
+                <AGEGROUP agegroupid="9924" agemax="-1" agemin="21" name="Breedy Badger">
                   <RANKINGS>
                     <RANKING order="1" place="1" resultid="19147" />
                   </RANKINGS>
@@ -3802,7 +3802,7 @@
               <SWIMSTYLE distance="400" relaycount="1" stroke="MEDLEY" />
               <FEE currency="EUR" value="450" />
               <AGEGROUPS>
-                <AGEGROUP agegroupid="9878" agemax="12" agemin="11" name="Schüler I">
+                <AGEGROUP agegroupid="9878" agemax="12" agemin="11" name="Breedy Badger">
                   <RANKINGS>
                     <RANKING order="1" place="1" resultid="17832" />
                     <RANKING order="2" place="2" resultid="17655" />
@@ -3811,7 +3811,7 @@
                     <RANKING order="5" place="5" resultid="18825" />
                   </RANKINGS>
                 </AGEGROUP>
-                <AGEGROUP agegroupid="9879" agemax="14" agemin="13" name="Jugend">
+                <AGEGROUP agegroupid="9879" agemax="14" agemin="13" name="Breedy Badger">
                   <RANKINGS>
                     <RANKING order="1" place="1" resultid="18344" />
                     <RANKING order="2" place="2" resultid="18353" />
@@ -3822,19 +3822,19 @@
                     <RANKING order="7" place="7" resultid="19033" />
                   </RANKINGS>
                 </AGEGROUP>
-                <AGEGROUP agegroupid="9880" agemax="16" agemin="15" name="Junioren II">
+                <AGEGROUP agegroupid="9880" agemax="16" agemin="15" name="Breedy Badger">
                   <RANKINGS>
                     <RANKING order="1" place="1" resultid="17946" />
                     <RANKING order="2" place="2" resultid="18421" />
                     <RANKING order="3" place="3" resultid="18335" />
                   </RANKINGS>
                 </AGEGROUP>
-                <AGEGROUP agegroupid="9881" agemax="18" agemin="17" name="Junioren I">
+                <AGEGROUP agegroupid="9881" agemax="18" agemin="17" name="Breedy Badger">
                   <RANKINGS>
                     <RANKING order="1" place="1" resultid="17777" />
                   </RANKINGS>
                 </AGEGROUP>
-                <AGEGROUP agegroupid="9882" agemax="-1" agemin="19" name="Allgemeine Klasse">
+                <AGEGROUP agegroupid="9882" agemax="-1" agemin="19" name="Breedy Badger">
                   <RANKINGS>
                     <RANKING order="1" place="1" resultid="18399" />
                     <RANKING order="2" place="2" resultid="16418" />
@@ -3851,7 +3851,7 @@
               <SWIMSTYLE distance="200" relaycount="1" stroke="FLY" />
               <FEE currency="EUR" value="450" />
               <AGEGROUPS>
-                <AGEGROUP agegroupid="9868" agemax="12" agemin="11" name="Schüler I">
+                <AGEGROUP agegroupid="9868" agemax="12" agemin="11" name="Breedy Badger">
                   <RANKINGS>
                     <RANKING order="1" place="1" resultid="16870" />
                     <RANKING order="2" place="2" resultid="17167" />
@@ -3859,7 +3859,7 @@
                     <RANKING order="4" place="4" resultid="16835" />
                   </RANKINGS>
                 </AGEGROUP>
-                <AGEGROUP agegroupid="9869" agemax="14" agemin="13" name="Jugend">
+                <AGEGROUP agegroupid="9869" agemax="14" agemin="13" name="Breedy Badger">
                   <RANKINGS>
                     <RANKING order="1" place="1" resultid="17818" />
                     <RANKING order="2" place="2" resultid="18992" />
@@ -3869,7 +3869,7 @@
                     <RANKING order="6" place="6" resultid="16458" />
                   </RANKINGS>
                 </AGEGROUP>
-                <AGEGROUP agegroupid="9870" agemax="16" agemin="15" name="Junioren II">
+                <AGEGROUP agegroupid="9870" agemax="16" agemin="15" name="Breedy Badger">
                   <RANKINGS>
                     <RANKING order="1" place="1" resultid="17797" />
                     <RANKING order="2" place="2" resultid="16631" />
@@ -3878,7 +3878,7 @@
                     <RANKING order="5" place="-1" resultid="18420" />
                   </RANKINGS>
                 </AGEGROUP>
-                <AGEGROUP agegroupid="9871" agemax="18" agemin="17" name="Junioren I">
+                <AGEGROUP agegroupid="9871" agemax="18" agemin="17" name="Breedy Badger">
                   <RANKINGS>
                     <RANKING order="1" place="1" resultid="19285" />
                     <RANKING order="2" place="2" resultid="19183" />
@@ -3887,7 +3887,7 @@
                     <RANKING order="5" place="-1" resultid="18411" />
                   </RANKINGS>
                 </AGEGROUP>
-                <AGEGROUP agegroupid="9872" agemax="-1" agemin="19" name="Allgemeine Klasse">
+                <AGEGROUP agegroupid="9872" agemax="-1" agemin="19" name="Breedy Badger">
                   <RANKINGS>
                     <RANKING order="1" place="1" resultid="18398" />
                     <RANKING order="2" place="-1" resultid="16415" />
@@ -3904,15 +3904,15 @@
               <SWIMSTYLE distance="200" relaycount="1" stroke="FLY" />
               <FEE currency="EUR" value="450" />
               <AGEGROUPS>
-                <AGEGROUP agegroupid="9907" agemax="12" agemin="11" name="Schüler II" />
-                <AGEGROUP agegroupid="9908" agemax="14" agemin="13" name="Schüler I">
+                <AGEGROUP agegroupid="9907" agemax="12" agemin="11" name="Breedy Badger" />
+                <AGEGROUP agegroupid="9908" agemax="14" agemin="13" name="Breedy Badger">
                   <RANKINGS>
                     <RANKING order="1" place="1" resultid="18744" />
                     <RANKING order="2" place="2" resultid="17640" />
                     <RANKING order="3" place="3" resultid="17747" />
                   </RANKINGS>
                 </AGEGROUP>
-                <AGEGROUP agegroupid="9909" agemax="16" agemin="15" name="Jugend">
+                <AGEGROUP agegroupid="9909" agemax="16" agemin="15" name="Breedy Badger">
                   <RANKINGS>
                     <RANKING order="1" place="1" resultid="17725" />
                     <RANKING order="2" place="2" resultid="16667" />
@@ -3924,14 +3924,14 @@
                     <RANKING order="8" place="8" resultid="17194" />
                   </RANKINGS>
                 </AGEGROUP>
-                <AGEGROUP agegroupid="9910" agemax="18" agemin="17" name="Junioren II">
+                <AGEGROUP agegroupid="9910" agemax="18" agemin="17" name="Breedy Badger">
                   <RANKINGS>
                     <RANKING order="1" place="1" resultid="17102" />
                     <RANKING order="2" place="2" resultid="17700" />
                   </RANKINGS>
                 </AGEGROUP>
-                <AGEGROUP agegroupid="9911" agemax="20" agemin="19" name="Junioren I" />
-                <AGEGROUP agegroupid="9912" agemax="-1" agemin="21" name="Allgemeine Klasse" />
+                <AGEGROUP agegroupid="9911" agemax="20" agemin="19" name="Breedy Badger" />
+                <AGEGROUP agegroupid="9912" agemax="-1" agemin="21" name="Breedy Badger" />
               </AGEGROUPS>
               <HEATS>
                 <HEAT heatid="20066" number="1" order="1" status="OFFICIAL" />
@@ -3942,7 +3942,7 @@
         </SESSION>
       </SESSIONS>
       <CLUBS>
-        <CLUB type="CLUB" code="TTCI" nation="AUT" region="TLSV" clubid="18747" swrid="89752" name="1. Raika TTCI">
+        <CLUB type="CLUB" code="TTCI" nation="AUT" region="TLSV" clubid="18747" swrid="89752" name="Breedy Badger">
           <ATHLETES>
             <ATHLETE birthdate="2005-01-01" firstname="Julia" gender="F" lastname="Janke-Frosch" nation="AUT" athleteid="18764">
               <RESULTS>
@@ -4007,9 +4007,9 @@
             </ATHLETE>
           </ATHLETES>
         </CLUB>
-        <CLUB type="CLUB" code="BZN" nation="ITA" clubid="18460" swrid="82616" name="ASD Bolzano Nuoto">
+        <CLUB type="CLUB" code="BZN" nation="ITA" clubid="18460" swrid="82616" name="Breedy Badger">
           <ATHLETES>
-            <ATHLETE birthdate="2001-07-09" firstname="Julia" gender="M" lastname="Janke-Frosch" nation="ITA" swrid="4841381" athleteid="18613">
+            <ATHLETE birthdate="2001-07-09" firstname="Julia4" gender="M" lastname="Janke-Frosch4" nation="ITA" swrid="4841381" athleteid="18613">
               <RESULTS>
                 <RESULT eventid="3551" points="536" swimtime="00:00:29.58" resultid="18614" heatid="19852" lane="7" entrytime="00:00:29.01" />
                 <RESULT eventid="3649" points="482" reactiontime="+52" swimtime="00:02:10.09" resultid="18615" heatid="19896" lane="4" entrytime="00:02:11.25">
@@ -4183,7 +4183,7 @@
                 <RESULT eventid="3594" points="348" swimtime="00:00:29.71" resultid="18632" heatid="19952" lane="5" entrytime="00:00:29.98" />
               </RESULTS>
             </ATHLETE>
-            <ATHLETE birthdate="2000-06-14" firstname="Julia" gender="M" lastname="Janke-Frosch" nation="ITA" swrid="4900639" athleteid="18621">
+            <ATHLETE birthdate="2000-06-14" firstname="Julia2" gender="M" lastname="Janke-Frosch2" nation="ITA" swrid="4900639" athleteid="18621">
               <RESULTS>
                 <RESULT eventid="3628" points="459" reactiontime="+50" swimtime="00:01:15.89" resultid="18622" heatid="19871" lane="3" entrytime="00:01:15.01" />
                 <RESULT eventid="3545" points="445" reactiontime="+53" swimtime="00:02:46.68" resultid="18623" heatid="19915" lane="4" entrytime="00:02:41.25">
@@ -4205,7 +4205,7 @@
                 <RESULT eventid="3594" points="427" swimtime="00:00:27.75" resultid="18597" heatid="19955" lane="6" entrytime="00:00:27.58" />
               </RESULTS>
             </ATHLETE>
-            <ATHLETE birthdate="2001-10-09" firstname="Julia" gender="M" lastname="Janke-Frosch" nation="ITA" swrid="4708009" athleteid="18598">
+            <ATHLETE birthdate="2001-10-09" firstname="Julia3" gender="M" lastname="Janke-Frosch3" nation="ITA" swrid="4708009" athleteid="18598">
               <RESULTS>
                 <RESULT eventid="3628" points="386" swimtime="00:01:20.43" resultid="18599" heatid="19870" lane="5" entrytime="00:01:19.58" />
                 <RESULT eventid="3594" points="439" swimtime="00:00:27.50" resultid="18600" heatid="19954" lane="7" entrytime="00:00:28.01" />
@@ -4541,8 +4541,8 @@
             </RELAY>
           </RELAYS>
         </CLUB>
-        <CLUB type="CLUB" code="MIH" nation="AUT" region="TLSV" clubid="16577" swrid="89762" name="Make-It-Happen Zillertal" shortname="MIH Zillertal">
-          <CONTACT city="Bruck am Ziller" email="swim@make-it-happen.at" internet="www.make-it-happen.at" name="Mario Huys" phone="06769734383" state="TI" street="Dorf 42d" zip="6260" />
+        <CLUB type="CLUB" code="MIH" nation="AUT" region="TLSV" clubid="16577" swrid="89762" name="Breedy Badger" shortname="MIH Zillertal">
+          <CONTACT city="Bruck am Ziller" email="swim@make-it-happen.at" internet="www.make-it-happen.at" name="Breedy Badger" phone="06769734383" state="TI" street="Dorf 42d" zip="6260" />
           <ATHLETES>
             <ATHLETE birthdate="2005-05-04" firstname="Julia" gender="F" lastname="Janke-Frosch" nation="AUT" license="43378" swrid="4953384" athleteid="16587">
               <RESULTS>
@@ -4636,7 +4636,7 @@
             </ATHLETE>
           </ATHLETES>
         </CLUB>
-        <CLUB type="CLUB" code="RARINANT" nation="ITA" clubid="17497" name="Rari Nantes">
+        <CLUB type="CLUB" code="RARINANT" nation="ITA" clubid="17497" name="Breedy Badger">
           <ATHLETES>
             <ATHLETE birthdate="2003-01-01" firstname="Julia" gender="F" lastname="Janke-Frosch" nation="ITA" swrid="5006758" athleteid="17819">
               <RESULTS>
@@ -6023,7 +6023,7 @@
             </RELAY>
           </RELAYS>
         </CLUB>
-        <CLUB type="CLUB" code="BREGENZ" nation="AUT" region="VLSV" clubid="13981" swrid="66431" name="SC Bregenz">
+        <CLUB type="CLUB" code="BREGENZ" nation="AUT" region="VLSV" clubid="13981" swrid="66431" name="Breedy Badger">
           <ATHLETES>
             <ATHLETE birthdate="2000-10-04" firstname="Julia" gender="F" lastname="Janke-Frosch" nation="AUT" swrid="4520432" athleteid="17276">
               <RESULTS>
@@ -6148,7 +6148,7 @@
             </ATHLETE>
           </ATHLETES>
         </CLUB>
-        <CLUB type="CLUB" code="SCSH" nation="SUI" region="ROS" clubid="14333" swrid="65668" name="SC Schaffhausen">
+        <CLUB type="CLUB" code="SCSH" nation="SUI" region="ROS" clubid="14333" swrid="65668" name="Breedy Badger">
           <ATHLETES>
             <ATHLETE birthdate="2004-08-04" firstname="Julia" gender="M" lastname="Janke-Frosch" nation="SUI" swrid="4894102" athleteid="18253">
               <RESULTS>
@@ -7323,8 +7323,8 @@
             </RELAY>
           </RELAYS>
         </CLUB>
-        <CLUB type="CLUB" code="SÖLL" nation="AUT" region="TLSV" clubid="14982" swrid="67828" name="SC Sparkasse Söll">
-          <CONTACT city="Kufstein" email="k.leitner@kufnet.at" name="Leitner Klaus" phone="05372/66157" state="AUT" street="Dr.-Karl-Erlacher-Str. 11" zip="6330" />
+        <CLUB type="CLUB" code="SÖLL" nation="AUT" region="TLSV" clubid="14982" swrid="67828" name="Breedy Badger">
+          <CONTACT city="Kufstein" email="k.leitner@kufnet.at" name="Breedy Badger" phone="05372/66157" state="AUT" street="Dr.-Karl-Erlacher-Str. 11" zip="6330" />
           <ATHLETES>
             <ATHLETE birthdate="1999-12-01" firstname="Julia" gender="F" lastname="Janke-Frosch" nation="AUT" license="38155" swrid="4736706" athleteid="18897">
               <RESULTS>
@@ -7463,8 +7463,8 @@
             </ATHLETE>
           </ATHLETES>
         </CLUB>
-        <CLUB type="CLUB" code="SCIKB" nation="AUT" region="TLSV" clubid="14167" name="SC Stadtoasen IKB Innsbruck" shortname="SC IKB Innsbruck">
-          <CONTACT email="st.opatril@aon.at" name="Stefan Opatril" />
+        <CLUB type="CLUB" code="SCIKB" nation="AUT" region="TLSV" clubid="14167" name="Breedy Badger" shortname="SC IKB Innsbruck">
+          <CONTACT email="st.opatril@aon.at" name="Breedy Badger" />
           <ATHLETES>
             <ATHLETE birthdate="2003-12-07" firstname="Julia" gender="M" lastname="Janke-Frosch" nation="AUT" license="37476" swrid="4650013" athleteid="19286">
               <RESULTS>
@@ -7722,8 +7722,8 @@
             </ATHLETE>
           </ATHLETES>
         </CLUB>
-        <CLUB type="CLUB" code="BLUDENZ" nation="AUT" region="VLSV" clubid="13863" name="SC Valblu Bludenz">
-          <CONTACT city="Nenzing" email="mathias_eder@hotmail.com" name="Eder, Mathias" street="Muttenbühel 2" zip="6710" />
+        <CLUB type="CLUB" code="BLUDENZ" nation="AUT" region="VLSV" clubid="13863" name="Breedy Badger">
+          <CONTACT city="Nenzing" email="mathias_eder@hotmail.com" name="Breedy Badger" street="Muttenbühel 2" zip="6710" />
           <ATHLETES>
             <ATHLETE birthdate="2000-01-01" firstname="Julia" gender="M" lastname="Janke-Frosch" nation="AUT" license="037043" swrid="4813306" athleteid="17443">
               <RESULTS>
@@ -7952,8 +7952,8 @@
             </RELAY>
           </RELAYS>
         </CLUB>
-        <CLUB type="CLUB" code="WITT" nation="SUI" region="ROS" clubid="16605" swrid="65667" name="SC Wittenbach">
-          <CONTACT city="Wittenbach" email="gabschneider@gmx.net" name="Schneider Gabriel" street="Grüntalstrasse 26 b" zip="9300" />
+        <CLUB type="CLUB" code="WITT" nation="SUI" region="ROS" clubid="16605" swrid="65667" name="Breedy Badger">
+          <CONTACT city="Wittenbach" email="gabschneider@gmx.net" name="Breedy Badger" street="Grüntalstrasse 26 b" zip="9300" />
           <ATHLETES>
             <ATHLETE birthdate="2002-02-23" firstname="Julia" gender="F" lastname="Janke-Frosch" nation="SUI" license="28253" swrid="4688403" athleteid="16645">
               <RESULTS>
@@ -8574,7 +8574,7 @@
             </RELAY>
           </RELAYS>
         </CLUB>
-        <CLUB type="CLUB" code="WÖRGL" nation="AUT" region="TLSV" clubid="14281" swrid="71933" name="SC Wörgl">
+        <CLUB type="CLUB" code="WÖRGL" nation="AUT" region="TLSV" clubid="14281" swrid="71933" name="Breedy Badger">
           <ATHLETES>
             <ATHLETE birthdate="2003-10-22" firstname="Julia" gender="M" lastname="Janke-Frosch" nation="AUT" license="40123" swrid="4703556" athleteid="18905">
               <RESULTS>
@@ -8630,7 +8630,7 @@
             </ATHLETE>
           </ATHLETES>
         </CLUB>
-        <CLUB type="CLUB" code="BAMBERG" nation="GER" region="02" clubid="16764" swrid="71445" name="SG Bamberg">
+        <CLUB type="CLUB" code="BAMBERG" nation="GER" region="02" clubid="16764" swrid="71445" name="Breedy Badger">
           <ATHLETES>
             <ATHLETE birthdate="2001-01-01" firstname="Julia" gender="F" lastname="Janke-Frosch" nation="GER" license="271055" swrid="4658084" athleteid="16838">
               <RESULTS>
@@ -8907,7 +8907,7 @@
             </ATHLETE>
           </ATHLETES>
         </CLUB>
-        <CLUB type="CLUB" code="KÖBO" nation="GER" region="02" clubid="16407" name="SG KöBo-Orcas">
+        <CLUB type="CLUB" code="KÖBO" nation="GER" region="02" clubid="16407" name="Breedy Badger">
           <ATHLETES>
             <ATHLETE birthdate="2002-01-01" firstname="Julia" gender="F" lastname="Janke-Frosch" nation="GER" license="284231" swrid="4705009" athleteid="16429">
               <RESULTS>
@@ -9196,8 +9196,8 @@
             </RELAY>
           </RELAYS>
         </CLUB>
-        <CLUB type="CLUB" code="MUCSTW" nation="GER" region="02" clubid="14064" swrid="78212" name="SG Stadtwerke München">
-          <CONTACT email="200948@200941" name="Sheela Schult" />
+        <CLUB type="CLUB" code="MUCSTW" nation="GER" region="02" clubid="14064" swrid="78212" name="Breedy Badger">
+          <CONTACT email="200948@200941" name="Breedy Badger" />
           <ATHLETES>
             <ATHLETE birthdate="2003-04-01" firstname="Julia" gender="M" lastname="Janke-Frosch" nation="GER" license="368146" athleteid="18736">
               <RESULTS>
@@ -9233,7 +9233,7 @@
             </ATHLETE>
           </ATHLETES>
         </CLUB>
-        <CLUB type="CLUB" code="ZIRL" nation="AUT" region="TLSV" clubid="14824" swrid="68100" name="SK Kruder Zirl">
+        <CLUB type="CLUB" code="ZIRL" nation="AUT" region="TLSV" clubid="14824" swrid="68100" name="Breedy Badger">
           <ATHLETES>
             <ATHLETE birthdate="2008-06-03" firstname="Julia" gender="F" lastname="Janke-Frosch" nation="AUT" license="43435" swrid="5101386" athleteid="18782">
               <RESULTS>
@@ -9304,7 +9304,7 @@
             </ATHLETE>
           </ATHLETES>
         </CLUB>
-        <CLUB type="CLUB" code="LEUT" nation="AUT" region="TLSV" clubid="14941" swrid="68099" name="SK Leutasch">
+        <CLUB type="CLUB" code="LEUT" nation="AUT" region="TLSV" clubid="14941" swrid="68099" name="Breedy Badger">
           <ATHLETES>
             <ATHLETE birthdate="2006-09-11" firstname="Julia" gender="M" lastname="Janke-Frosch" nation="RUS" license="43203" swrid="5101382" athleteid="18805">
               <RESULTS>
@@ -9412,7 +9412,7 @@
             </RELAY>
           </RELAYS>
         </CLUB>
-        <CLUB type="CLUB" code="BRUNECK" nation="ITA" clubid="12874" name="SSV Bruneck">
+        <CLUB type="CLUB" code="BRUNECK" nation="ITA" clubid="12874" name="Breedy Badger">
           <ATHLETES>
             <ATHLETE birthdate="2007-01-01" firstname="Julia" gender="F" lastname="Janke-Frosch" nation="ITA" swrid="5164030" athleteid="17085">
               <RESULTS>
@@ -9798,7 +9798,7 @@
             </ATHLETE>
           </ATHLETES>
         </CLUB>
-        <CLUB type="CLUB" code="BIEL" nation="SUI" region="RZW" clubid="13007" swrid="65714" name="ST Biel-Bienne">
+        <CLUB type="CLUB" code="BIEL" nation="SUI" region="RZW" clubid="13007" swrid="65714" name="Breedy Badger">
           <ATHLETES>
             <ATHLETE birthdate="2000-01-01" firstname="Julia" gender="M" lastname="Janke-Frosch" nation="SUI" swrid="4688265" athleteid="17473">
               <RESULTS>
@@ -9853,8 +9853,8 @@
             </ATHLETE>
           </ATHLETES>
         </CLUB>
-        <CLUB type="CLUB" code="HALL" nation="AUT" region="TLSV" clubid="13734" swrid="68005" name="SU Citynet@ Hall">
-          <CONTACT city="Innsbruck" email="staatl.t.patrick.holst@gmail.com" name="Patrick Holst" street="Templstrasse" zip="6020" />
+        <CLUB type="CLUB" code="HALL" nation="AUT" region="TLSV" clubid="13734" swrid="68005" name="Breedy Badger">
+          <CONTACT city="Innsbruck" email="staatl.t.patrick.holst@gmail.com" name="Breedy Badger" street="Templstrasse" zip="6020" />
           <ATHLETES>
             <ATHLETE birthdate="2003-12-25" firstname="Julia" gender="M" lastname="Janke-Frosch" nation="AUT" license="40037" swrid="4796700" athleteid="17878">
               <RESULTS>
@@ -10332,8 +10332,8 @@
             </ATHLETE>
           </ATHLETES>
         </CLUB>
-        <CLUB type="CLUB" code="SUGS" nation="AUT" region="SLSV" clubid="13021" swrid="65818" name="SU Generali Salzburg">
-          <CONTACT email="hanni.gerstbauer@gmx.at" name="Johanna Gerstbauer" />
+        <CLUB type="CLUB" code="SUGS" nation="AUT" region="SLSV" clubid="13021" swrid="65818" name="Breedy Badger">
+          <CONTACT email="hanni.gerstbauer@gmx.at" name="Breedy Badger" />
           <ATHLETES>
             <ATHLETE birthdate="2004-09-08" firstname="Julia" gender="M" lastname="Janke-Frosch" nation="AUT" swrid="5101399" athleteid="16879">
               <RESULTS>
@@ -10505,7 +10505,7 @@
             </ATHLETE>
           </ATHLETES>
         </CLUB>
-        <CLUB type="CLUB" code="AUGSB" nation="GER" region="02" clubid="17317" name="SV Augsburg 1911 e.V." shortname="SV Augsburg ">
+        <CLUB type="CLUB" code="AUGSB" nation="GER" region="02" clubid="17317" name="Breedy Badger" shortname="SV Augsburg ">
           <ATHLETES>
             <ATHLETE birthdate="2001-01-01" firstname="Julia" gender="F" lastname="Janke-Frosch" nation="GER" license="264119" swrid="4491214" athleteid="17341">
               <RESULTS>
@@ -10636,8 +10636,8 @@
             </ATHLETE>
           </ATHLETES>
         </CLUB>
-        <CLUB type="CLUB" code="OTTOBR" nation="GER" region="02" clubid="16490" name="SV Ottobrunn 1970 e.V." shortname="SV Ottobrunn ">
-          <CONTACT city="München-Trudering" email="dirk.opavsky@sv-ottobrunn.de" name="Opavsky, Dirk" phone="+49 171/8153369" street="Hoferichterweg 19a" zip="81827" />
+        <CLUB type="CLUB" code="OTTOBR" nation="GER" region="02" clubid="16490" name="Breedy Badger" shortname="SV Ottobrunn ">
+          <CONTACT city="München-Trudering" email="dirk.opavsky@sv-ottobrunn.de" name="Breedy Badger" phone="+49 171/8153369" street="Hoferichterweg 19a" zip="81827" />
           <ATHLETES>
             <ATHLETE birthdate="2004-06-18" firstname="Julia" gender="F" lastname="Janke-Frosch" nation="GER" license="345304" swrid="5022160" athleteid="16534">
               <RESULTS>
@@ -10833,8 +10833,8 @@
             </ATHLETE>
           </ATHLETES>
         </CLUB>
-        <CLUB type="CLUB" code="TWV" nation="AUT" region="TLSV" clubid="15095" swrid="71937" name="Tiroler Wassersportverein">
-          <CONTACT city="Telfs" email="peter.kriegelsteiner@gmx.at" name="Kriegelsteiner Peter" street="Prof.-A.-Einbergerstraße 28a" zip="6410" />
+        <CLUB type="CLUB" code="TWV" nation="AUT" region="TLSV" clubid="15095" swrid="71937" name="Breedy Badger">
+          <CONTACT city="Telfs" email="peter.kriegelsteiner@gmx.at" name="Breedy Badger" street="Prof.-A.-Einbergerstraße 28a" zip="6410" />
           <ATHLETES>
             <ATHLETE birthdate="2003-10-30" firstname="Julia" gender="F" lastname="Janke-Frosch" nation="AUT" license="41149" swrid="4797185" athleteid="18987">
               <RESULTS>
@@ -11753,8 +11753,8 @@
             </RELAY>
           </RELAYS>
         </CLUB>
-        <CLUB type="CLUB" code="TSD" nation="AUT" region="VLSV" clubid="13549" swrid="65825" name="TS Dornbirn">
-          <CONTACT city="Dornbirn" email="Stefanie.Kernbeiss@gmail.com" name="Kernbeiss Stefanie" state="VB" street="Sebastianstraße 2" zip="6850" />
+        <CLUB type="CLUB" code="TSD" nation="AUT" region="VLSV" clubid="13549" swrid="65825" name="Breedy Badger">
+          <CONTACT city="Dornbirn" email="Stefanie.Kernbeiss@gmail.com" name="Breedy Badger" state="VB" street="Sebastianstraße 2" zip="6850" />
           <ATHLETES>
             <ATHLETE birthdate="1998-05-19" firstname="Julia" gender="M" lastname="Janke-Frosch" nation="AUT" license="34775" swrid="4254411" athleteid="17224">
               <RESULTS>
@@ -12183,7 +12183,7 @@
             </COACH>
           </COACHES>
         </CLUB>
-        <CLUB type="CLUB" code="ROSENH" nation="GER" region="02" clubid="19716" swrid="66109" name="TSV 1860 Rosenheim">
+        <CLUB type="CLUB" code="ROSENH" nation="GER" region="02" clubid="19716" swrid="66109" name="Breedy Badger">
           <ATHLETES>
             <ATHLETE birthdate="1999-01-01" firstname="Julia" gender="M" lastname="Janke-Frosch" nation="GER" license="257560" swrid="4406859" athleteid="19717">
               <RESULTS>
@@ -12381,7 +12381,7 @@
             </RELAY>
           </RELAYS>
         </CLUB>
-        <CLUB type="CLUB" code="UNBR" nation="CZE" clubid="14059" swrid="73404" name="Univerzita Brno">
+        <CLUB type="CLUB" code="UNBR" nation="CZE" clubid="14059" swrid="73404" name="Breedy Badger">
           <ATHLETES>
             <ATHLETE birthdate="1994-01-01" firstname="Julia" gender="M" lastname="Janke-Frosch" nation="CZE" athleteid="17490">
               <RESULTS>
@@ -12403,7 +12403,7 @@
             </ATHLETE>
           </ATHLETES>
         </CLUB>
-        <CLUB type="CLUB" code="STJO" nation="AUT" region="TLSV" clubid="14110" swrid="68105" name="WSV St. Johann in Tirol">
+        <CLUB type="CLUB" code="STJO" nation="AUT" region="TLSV" clubid="14110" swrid="68105" name="Breedy Badger">
           <ATHLETES>
             <ATHLETE birthdate="2003-03-17" firstname="Julia" gender="F" lastname="Janke-Frosch" nation="AUT" license="43365" swrid="4826137" athleteid="18012">
               <RESULTS>
