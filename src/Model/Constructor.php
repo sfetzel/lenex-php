@@ -15,16 +15,16 @@ namespace leonverschuren\Lenex\Model;
 class Constructor
 {
     /** @var Contact */
-    protected $contact;
+    public $contact;
 
     /** @var string */
-    protected $name;
+    public $name;
 
     /** @var string */
-    protected $registration;
+    public $registration;
 
     /** @var string */
-    protected $version;
+    public $version;
 
     /**
      * @return Contact

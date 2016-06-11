@@ -15,10 +15,10 @@ namespace leonverschuren\Lenex\Model;
 class TimeStandard
 {
     /** @var SwimStyle */
-    protected $swimStyle;
+    public $swimStyle;
 
     /** @var string */
-    protected $swimTime;
+    public $swimTime;
 
     /**
      * @return SwimStyle

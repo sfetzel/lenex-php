@@ -15,28 +15,28 @@ namespace leonverschuren\Lenex\Model;
 class TimeStandardList
 {
     /** @var AgeGroup */
-    protected $ageGroup;
+    public $ageGroup;
     
     /** @var string */
-    protected $course;
+    public $course;
 
     /** @var string */
-    protected $gender;
+    public $gender;
 
     /** @var int */
-    protected $handicap;
+    public $handicap;
 
     /** @var string */
-    protected $name;
+    public $name;
 
     /** @var int */
-    protected $timeStandardListId;
+    public $timeStandardListId;
     
     /** @var TimeStandard[] */
-    protected $timeStandards = [];
+    public $timeStandards = [];
 
     /** @var string */
-    protected $type;
+    public $type;
 
     /**
      * @return AgeGroup

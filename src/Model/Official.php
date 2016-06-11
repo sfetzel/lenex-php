@@ -15,34 +15,34 @@ namespace leonverschuren\Lenex\Model;
 class Official
 {
     /** @var Contact */
-    protected $contact;
+    public $contact;
 
     /** @var string */
-    protected $firstName;
+    public $firstName;
 
     /** @var string */
-    protected $gender;
+    public $gender;
 
     /** @var string */
-    protected $grade;
+    public $grade;
 
     /** @var string */
-    protected $lastName;
+    public $lastName;
 
     /** @var string */
-    protected $license;
+    public $license;
 
     /** @var string */
-    protected $namePrefix;
+    public $namePrefix;
 
     /** @var string */
-    protected $nation;
+    public $nation;
 
     /** @var int */
-    protected $officialId;
+    public $officialId;
 
     /** @var string */
-    protected $passport;
+    public $passport;
 
     /**
      * @return Contact

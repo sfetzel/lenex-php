@@ -15,22 +15,22 @@ namespace leonverschuren\Lenex\Model;
 class RelayPosition
 {
     /** @var Athlete */
-    protected $athlete;
+    public $athlete;
 
     /** @var int */
-    protected $athleteId;
+    public $athleteId;
 
     /** @var MeetInfo */
-    protected $meetInfo;
+    public $meetInfo;
 
     /** @var int */
-    protected $number;
+    public $number;
 
     /** @var string */
-    protected $reactionTime;
+    public $reactionTime;
 
     /** @var string */
-    protected $status;
+    public $status;
 
     /**
      * @return Athlete

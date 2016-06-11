@@ -15,31 +15,31 @@ namespace leonverschuren\Lenex\Model;
 class Entry
 {
     /** @var int */
-    protected $ageGroupId;
+    public $ageGroupId;
 
     /** @var string */
-    protected $entryCourse;
+    public $entryCourse;
 
     /** @var string */
-    protected $entryTime;
+    public $entryTime;
 
     /** @var int */
-    protected $eventId;
+    public $eventId;
 
     /** @var int */
-    protected $heatId;
+    public $heatId;
 
     /** @var int */
-    protected $lane;
+    public $lane;
 
     /** @var MeetInfo */
-    protected $meetInfo;
+    public $meetInfo;
 
     /** @var RelayPosition[] */
-    protected $relayPositions = [];
+    public $relayPositions = [];
 
     /** @var string */
-    protected $status;
+    public $status;
 
     /**
      * @return int

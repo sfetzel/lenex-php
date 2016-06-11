@@ -17,37 +17,37 @@ use DateTime;
 class RecordList
 {
     /** @var AgeGroup */
-    protected $ageGroup;
+    public $ageGroup;
 
     /** @var string */
-    protected $course;
+    public $course;
 
     /** @var string */
-    protected $gender;
+    public $gender;
 
     /** @var string */
-    protected $handicap;
+    public $handicap;
 
     /** @var string */
-    protected $name;
+    public $name;
 
     /** @var string */
-    protected $nation;
+    public $nation;
 
     /** @var int */
-    protected $order;
+    public $order;
 
     /** @var Record[] */
-    protected $records = [];
+    public $records = [];
 
     /** @var string */
-    protected $region;
+    public $region;
 
     /** @var DateTime */
-    protected $updated;
+    public $updated;
 
     /** @var string */
-    protected $type;
+    public $type;
 
     /**
      * @return AgeGroup

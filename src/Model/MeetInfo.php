@@ -17,34 +17,34 @@ use DateTime;
 class MeetInfo
 {
     /** @var string */
-    protected $approved;
+    public $approved;
 
     /** @var string */
-    protected $city;
+    public $city;
 
     /** @var string */
-    protected $course;
+    public $course;
 
     /** @var DateTime */
-    protected $date;
+    public $date;
 
     /** @var DateTime */
-    protected $dayTime;
+    public $dayTime;
 
     /** @var string */
-    protected $name;
+    public $name;
 
     /** @var string */
-    protected $nation;
+    public $nation;
 
     /** @var Pool */
-    protected $pool;
+    public $pool;
 
     /** @var string */
-    protected $qualificationTime;
+    public $qualificationTime;
 
     /** @var string */
-    protected $state;
+    public $state;
 
     /**
      * @return string

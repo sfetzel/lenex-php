@@ -15,37 +15,37 @@ namespace leonverschuren\Lenex\Model;
 class Result
 {
     /** @var string */
-    protected $comment;
+    public $comment;
 
     /** @var int */
-    protected $eventId;
+    public $eventId;
 
     /** @var int */
-    protected $heatId;
+    public $heatId;
 
     /** @var int */
-    protected $lane;
+    public $lane;
 
     /** @var int */
-    protected $points;
+    public $points;
 
     /** @var string */
-    protected $reactionTime;
+    public $reactionTime;
 
     /** @var RelayPosition[] */
-    protected $relayPositions = [];
+    public $relayPositions = [];
 
     /** @var int */
-    protected $resultId;
+    public $resultId;
 
     /** @var string */
-    protected $status;
+    public $status;
 
     /** @var Split[] */
-    protected $splits = [];
+    public $splits = [];
 
     /** @var string */
-    protected $swimTime;
+    public $swimTime;
 
     /**
      * @return string

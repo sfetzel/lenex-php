@@ -17,16 +17,16 @@ use DateTime;
 class Qualify
 {
     /** @var string */
-    protected $conversion;
+    public $conversion;
 
     /** @var DateTime */
-    protected $from;
+    public $from;
 
     /** @var int */
-    protected $percent;
+    public $percent;
 
     /** @var DateTime */
-    protected $until;
+    public $until;
 
     /**
      * @return string

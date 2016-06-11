@@ -15,13 +15,13 @@ namespace leonverschuren\Lenex\Model;
 class PointTable
 {
     /** @var string */
-    protected $name;
+    public $name;
 
     /** @var int */
-    protected $pointTableId;
+    public $pointTableId;
 
     /** @var string */
-    protected $version;
+    public $version;
 
     /**
      * @return string

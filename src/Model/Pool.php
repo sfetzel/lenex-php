@@ -15,19 +15,19 @@ namespace leonverschuren\Lenex\Model;
 class Pool
 {
     /** @var string */
-    protected $name;
+    public $name;
 
     /** @var int */
-    protected $laneMax;
+    public $laneMax;
 
     /** @var int */
-    protected $laneMin;
+    public $laneMin;
 
     /** @var int */
-    protected $temperature;
+    public $temperature;
 
     /** @var string */
-    protected $type;
+    public $type;
 
     /**
      * @return string

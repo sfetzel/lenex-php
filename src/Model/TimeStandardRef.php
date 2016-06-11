@@ -15,13 +15,13 @@ namespace leonverschuren\Lenex\Model;
 class TimeStandardRef
 {
     /** @var int */
-    protected $timeStandardListId;
+    public $timeStandardListId;
 
     /** @var Fee */
-    protected $fee;
+    public $fee;
 
     /** @var string */
-    protected $marker;
+    public $marker;
 
     /**
      * @return int

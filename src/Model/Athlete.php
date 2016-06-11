@@ -17,55 +17,55 @@ use DateTime;
 class Athlete
 {
     /** @var int */
-    protected $athleteId;
+    public $athleteId;
 
     /** @var DateTime */
-    protected $birthDate;
+    public $birthDate;
 
     /** @var Club */
-    protected $club;
+    public $club;
 
     /** @var Entry[] */
-    protected $entries = [];
+    public $entries = [];
 
     /** @var string */
-    protected $firstName;
+    public $firstName;
 
     /** @var string */
-    protected $firstNameEn;
+    public $firstNameEn;
 
     /** @var string */
-    protected $gender;
+    public $gender;
 
     /** @var Handicap */
-    protected $handicap;
+    public $handicap;
 
     /** @var string */
-    protected $lastName;
+    public $lastName;
 
     /** @var string */
-    protected $lastNameEn;
+    public $lastNameEn;
 
     /** @var string */
-    protected $level;
+    public $level;
 
     /** @var string */
-    protected $license;
+    public $license;
 
     /** @var string */
-    protected $namePrefix;
+    public $namePrefix;
 
     /** @var string */
-    protected $nation;
+    public $nation;
 
     /** @var string */
-    protected $passport;
+    public $passport;
 
     /** @var Result[] */
-    protected $results = [];
+    public $results = [];
 
     /** @var string */
-    protected $swrId;
+    public $swrId;
 
     /**
      * @return int

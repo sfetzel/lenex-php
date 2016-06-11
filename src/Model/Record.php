@@ -15,28 +15,28 @@ namespace leonverschuren\Lenex\Model;
 class Record
 {
     /** @var Athlete */
-    protected $athlete;
+    public $athlete;
 
     /** @var string */
-    protected $comment;
+    public $comment;
 
     /** @var MeetInfo */
-    protected $meetInfo;
+    public $meetInfo;
 
     /** @var Relay */
-    protected $relay;
+    public $relay;
 
     /** @var Split */
-    protected $splits;
+    public $splits;
 
     /** @var SwimStyle */
-    protected $swimStyle;
+    public $swimStyle;
 
     /** @var string */
-    protected $swimTime;
+    public $swimTime;
 
     /** @var string */
-    protected $status;
+    public $status;
 
     /**
      * @return Athlete

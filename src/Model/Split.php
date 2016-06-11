@@ -15,10 +15,10 @@ namespace leonverschuren\Lenex\Model;
 class Split
 {
     /** @var int */
-    protected $distance;
+    public $distance;
 
     /** @var string */
-    protected $swimTime;
+    public $swimTime;
 
     /**
      * @return int

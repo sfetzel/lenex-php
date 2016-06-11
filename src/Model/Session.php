@@ -17,58 +17,58 @@ use DateTime;
 class Session
 {
     /** @var string */
-    protected $course;
+    public $course;
 
     /** @var DateTime */
-    protected $date;
+    public $date;
 
     /** @var string */
-    protected $dayTime;
+    public $dayTime;
 
     /** @var string */
-    protected $endTime;
+    public $endTime;
 
     /** @var Event[] */
-    protected $events = [];
+    public $events = [];
 
     /** @var Fee[] */
-    protected $fees = [];
+    public $fees = [];
 
     /** @var Judge[] */
-    protected $judges = [];
+    public $judges = [];
 
     /** @var int */
-    protected $maxEntriesAthlete;
+    public $maxEntriesAthlete;
 
     /** @var int */
-    protected $maxEntriesRelay;
+    public $maxEntriesRelay;
 
     /** @var string */
-    protected $name;
+    public $name;
 
     /** @var int */
-    protected $number;
+    public $number;
 
     /** @var string */
-    protected $officialMeeting;
+    public $officialMeeting;
 
     /** @var Pool */
-    protected $pool;
+    public $pool;
 
     /** @var string */
-    protected $remarksJudge;
+    public $remarksJudge;
 
     /** @var string */
-    protected $teamLeaderMeeting;
+    public $teamLeaderMeeting;
 
     /** @var string */
-    protected $timing;
+    public $timing;
 
     /** @var string */
-    protected $warmUpFrom;
+    public $warmUpFrom;
 
     /** @var string */
-    protected $warmUpUntil;
+    public $warmUpUntil;
 
     /**
      * @return string

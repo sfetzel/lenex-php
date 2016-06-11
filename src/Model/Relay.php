@@ -15,40 +15,40 @@ namespace leonverschuren\Lenex\Model;
 class Relay
 {
     /** @var int */
-    protected $ageMax;
+    public $ageMax;
 
     /** @var int */
-    protected $ageMin;
+    public $ageMin;
 
     /** @var int */
-    protected $ageTotalMax;
+    public $ageTotalMax;
 
     /** @var int */
-    protected $ageTotalMin;
+    public $ageTotalMin;
 
     /** @var Club */
-    protected $club;
+    public $club;
 
     /** @var Entry[] */
-    protected $entries = [];
+    public $entries = [];
 
     /** @var string */
-    protected $gender;
+    public $gender;
 
     /** @var int */
-    protected $handicap;
+    public $handicap;
 
     /** @var string */
-    protected $name;
+    public $name;
 
     /** @var int */
-    protected $number;
+    public $number;
 
     /** @var RelayPosition[] */
-    protected $relayPositions = [];
+    public $relayPositions = [];
 
     /** @var Result[] */
-    protected $results = [];
+    public $results = [];
 
     /**
      * @return int

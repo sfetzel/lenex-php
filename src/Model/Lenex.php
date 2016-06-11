@@ -15,19 +15,19 @@ namespace leonverschuren\Lenex\Model;
 class Lenex
 {
     /** @var Constructor */
-    protected $constructor;
+    public $constructor;
 
     /** @var Meet[] */
-    protected $meets = [];
+    public $meets = [];
 
     /** @var RecordList[] */
-    protected $recordLists = [];
+    public $recordLists = [];
 
     /** @var TimeStandardList[] */
-    protected $timeStandardLists = [];
+    public $timeStandardLists = [];
 
     /** @var string */
-    protected $version;
+    public $version;
 
     /**
      * @return Constructor

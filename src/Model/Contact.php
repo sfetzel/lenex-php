@@ -15,40 +15,40 @@ namespace leonverschuren\Lenex\Model;
 class Contact
 {
     /** @var string */
-    protected $city;
+    public $city;
 
     /** @var string */
-    protected $country;
+    public $country;
 
     /** @var string */
-    protected $email;
+    public $email;
 
     /** @var string */
-    protected $fax;
+    public $fax;
 
     /** @var string */
-    protected $internet;
+    public $internet;
 
     /** @var string */
-    protected $name;
+    public $name;
 
     /** @var string */
-    protected $mobile;
+    public $mobile;
 
     /** @var string */
-    protected $phone;
+    public $phone;
 
     /** @var string */
-    protected $state;
+    public $state;
 
     /** @var string */
-    protected $street;
+    public $street;
 
     /** @var string */
-    protected $street2;
+    public $street2;
 
     /** @var string */
-    protected $zip;
+    public $zip;
 
     /**
      * @return string

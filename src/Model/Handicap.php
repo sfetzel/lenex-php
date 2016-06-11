@@ -15,16 +15,16 @@ namespace leonverschuren\Lenex\Model;
 class Handicap
 {
     /** @var string */
-    protected $breast;
+    public $breast;
 
     /** @var string */
-    protected $exception;
+    public $exception;
 
     /** @var string */
-    protected $free;
+    public $free;
 
     /** @var string */
-    protected $medley;
+    public $medley;
 
     /**
      * @return string

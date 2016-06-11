@@ -17,10 +17,10 @@ use DateTime;
 class AgeDate
 {
     /** @var string */
-    protected $type;
+    public $type;
 
     /** @var DateTime */
-    protected $value;
+    public $value;
 
     /**
      * @return string

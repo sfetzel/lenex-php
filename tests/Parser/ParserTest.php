@@ -223,4 +223,32 @@ class ParserTest extends PHPUnit_Framework_TestCase
         $this->assertEquals(null, $result->getSwimStyleId());
         $this->assertEquals(null, $result->getTechnique());
     }
+    
+    public function testExtractTimeLimit()
+    {
+	$xml = simplexml_load_file(__dir__ . '/Int-Swimmeeting-Innsbruck-7-May-2016.lef');
+        $target = new Parser();
+
+	$timeResultsSum = 0;
+	$count = 10;
+        for($i = 0; $i <= $count; $i++)
+	{
+	    $startTime = microtime(true);
+	    $result = $target->extractLenex($xml);
+	    $endTime = microtime(true);
+	    $timeResultsSum += ($endTime-$startTime);
+	}
+	
+	// Results for provided file with commit 1c6c13fon Mar 13 
+	// (by leonverschuren, message: Fixed typo)
+	// Intel Core i5 M 450 @ 2.40 GhZ: 
+	// ------------------------------------------------
+	// 1.0265055656433 seconds
+	// new revision without using setter methods/Symfony PropertyAccess: 
+	// 0.16978707313538s
+	
+	$averageTime = $timeResultsSum / $count;
+	echo "Average Extraction time: ".($averageTime)."s";
+	
+    }
 }

@@ -42,14 +42,9 @@ use leonverschuren\Lenex\Model\Split;
 use leonverschuren\Lenex\Model\SwimStyle;
 use leonverschuren\Lenex\Model\TimeStandardRef;
 use SimpleXMLElement;
-use Symfony\Component\PropertyAccess\PropertyAccess;
-use Symfony\Component\PropertyAccess\PropertyAccessorInterface;
 
 class Parser
 {
-    /** @var PropertyAccessorInterface */
-    private $accessor;
-
     /**
      * @param SimpleXMLElement $document
      * @return Lenex
@@ -66,10 +61,10 @@ class Parser
 
         $fields = [
             'CONSTRUCTOR'      => function (Lenex $object, $value) {
-                $object->setConstructor($this->extractConstructor($value));
+                $object->constructor = ($this->extractConstructor($value));
             },
             'MEETS'            => function (Lenex $object, $value) {
-                $object->setMeets($this->extractMeets($value));
+                $object->meets = ($this->extractMeets($value));
             },
             'RECORDLISTS'      => function () {
             },
@@ -95,7 +90,7 @@ class Parser
             'registration' => 'registration',
             'version'      => 'version',
             'CONTACT'      => function (Constructor $object, $value) {
-                $object->setContact($this->extractContact($value));
+                $object->contact = $this->extractContact($value);
             },
         ];
 
@@ -156,28 +151,31 @@ class Parser
 
         $fields = [
             'AGEDATE'        => function (Meet $object, $value) {
-                $object->setAgeDate($this->extractAgeDate($value));
+                $object->ageDate = $this->extractAgeDate($value);
             },
             'altitude'       => 'altitude',
             'city'           => 'city',
             'city.en'        => 'cityEn',
             'CLUBS'          => function (Meet $object, $value) {
-                $object->setClubs($this->extractClubs($value));
+                $object->clubs = $this->extractClubs($value);
+		foreach($object->clubs as $club){
+		    $club->meet = $object;
+		}
             },
             'CONTACT'        => function (Meet $object, $value) {
-                $object->setContact($this->extractContact($value));
+                $object->contact = $this->extractContact($value);
             },
             'course'         => 'course',
             'deadline'       => function (Meet $object, $value) {
-                $object->setDeadline(new DateTime($value));
+                $object->deadline = new DateTime($value);
             },
             'deadlinetime'   => 'deadlineTime',
             'entrystartdate' => function (Meet $object, $value) {
-                $object->setEntryStartDate(new DateTime($value));
+                $object->entryStartDate = new DateTime($value);
             },
             'entrytype'      => 'entryType',
             'FEES'           => function (Meet $object, $value) {
-                $object->setFees($this->extractFees($value));
+                $object->fees = $this->extractFees($value);
             },
             'hostclub'       => 'hostClub',
             'hostclub.url'   => 'hostClubUrl',
@@ -189,18 +187,18 @@ class Parser
             'organizer'      => 'organizer',
             'organizer.url'  => 'organizerUrl',
             'POINTTABLE'     => function (Meet $object, $value) {
-                $object->setPointTable($this->extractPointTable($value));
+                $object->pointTable = $this->extractPointTable($value);
             },
             'POOL'           => function (Meet $object, $value) {
-                $object->setPool($this->extractPool($value));
+                $object->pool = $this->extractPool($value);
             },
             'QUALIFY'        => function (Meet $object, $value) {
-                $object->setQualify($this->extractQualify($value));
+                $object->qualify = $this->extractQualify($value);
             },
             'reservecount'   => 'reserveCount',
             'result.url'     => 'resultUrl',
             'SESSIONS'       => function (Meet $object, $value) {
-                $object->setSessions($this->extractSessions($value));
+                $object->sessions = $this->extractSessions($value);
             },
             'startmethod'    => 'startMethod',
             'state'          => 'state',
@@ -208,7 +206,7 @@ class Parser
             'timing'         => 'timing',
             'type'           => 'type',
             'withdrawuntil'  => function (Meet $object, $value) {
-                $object->setWithdrawUntil(new DateTime($value));
+                $object->withdrawUntil = new DateTime($value);
             },
         ];
 
@@ -227,7 +225,7 @@ class Parser
         $fields = [
             'type'  => 'type',
             'value' => function (AgeDate $object, $value) {
-                $object->setValue(new DateTime($value));
+                $object->value = new DateTime($value);
             },
         ];
 
@@ -260,22 +258,22 @@ class Parser
 
         $fields = [
             'ATHLETES'     => function (Club $object, $value) {
-                $object->setAthletes($this->extractAthletes($value));
+                $object->athletes = $this->extractAthletes($value);
             },
             'code'         => 'code',
             'CONTACT'      => function (Club $object, $value) {
-                $object->setContact($this->extractContact($value));
+                $object->contact = $this->extractContact($value);
             },
             'name'         => 'name',
             'name.en'      => 'nameEn',
             'nation'       => 'nation',
             'number'       => 'number',
             'OFFICIALS'    => function (Club $object, $value) {
-                $object->setOfficials($this->extractOfficials($value));
+                $object->officials = $this->extractOfficials($value);
             },
             'region'       => 'region',
             'RELAYS'       => function (Club $object, $value) {
-                $object->setRelays($this->extractRelays($value));
+                $object->relays = $this->extractRelays($value);
             },
             'shortname'    => 'shortName',
             'shortname.en' => 'shortNameEn',
@@ -314,19 +312,19 @@ class Parser
         $fields = [
             'athleteid'    => 'athleteId',
             'birthdate'    => function (Athlete $object, $value) {
-                $object->setBirthDate(new DateTime($value));
+                $object->birthDate = new DateTime($value);
             },
             'CLUB'         => function (Athlete $object, $value) {
-                $object->setClub($this->extractClub($value));
+                $object->club = $this->extractClub($value);
             },
             'ENTRIES'      => function (Athlete $object, $value) {
-                $object->setEntries($this->extractEntries($value));
+                $object->entries = $this->extractEntries($value);
             },
             'firstname'    => 'firstName',
             'firstname.en' => 'firstNameEn',
             'gender'       => 'gender',
             'HANDICAP'     => function (Athlete $object, $value) {
-                $object->setHandicap($this->extractHandicap($value));
+                $object->handicap = $this->extractHandicap($value);
             },
             'lastname'     => 'lastName',
             'lastname.en'  => 'lastNameEn',
@@ -336,7 +334,7 @@ class Parser
             'nation'       => 'nation',
             'passport'     => 'passport',
             'RESULTS'      => function (Athlete $object, $value) {
-                $object->setResults($this->extractResults($value));
+                $object->results = $this->extractResults($value);
             },
             'swrid'        => 'swrId',
         ];
@@ -377,10 +375,10 @@ class Parser
             'heatid'         => 'heatId',
             'lane'           => 'lane',
             'MEETINFO'       => function (Entry $object, $value) {
-                $object->setMeetInfo($this->extractMeetInfo($value));
+                $object->meetInfo = $this->extractMeetInfo($value);
             },
             'RELAYPOSITIONS' => function (Entry $object, $value) {
-                $object->setRelayPositions($this->extractRelayPositions($value));
+                $object->relayPositions = ($this->extractRelayPositions($value));
             },
             'status'         => 'status',
         ];
@@ -406,7 +404,7 @@ class Parser
             'name'              => 'name',
             'nation'            => 'nation',
             'POOL'              => function (MeetInfo $object, $value) {
-                $object->setPool($this->extractPool($value));
+                $object->pool = ($this->extractPool($value));
             },
             'qualificationtime' => 'qualificationTime',
             'state'             => 'state',
@@ -442,11 +440,11 @@ class Parser
 
         $fields = [
             'ATHLETE'      => function (RelayPosition $object, $value) {
-                $object->setAthlete($this->extractAthlete($value));
+                $object->athlete = ($this->extractAthlete($value));
             },
             'athleteid'    => 'athleteId',
             'MEETINFO'     => function (RelayPosition $object, $value) {
-                $object->setMeetInfo($this->extractMeetInfo($value));
+                $object->meetInfo = ($this->extractMeetInfo($value));
             },
             'number'       => 'number',
             'reactiontime' => 'reactionTime',
@@ -508,12 +506,12 @@ class Parser
             'points'         => 'points',
             'reactiontime'   => 'reactionTime',
             'RELAYPOSITIONS' => function (Result $object, $value) {
-                $object->setRelayPositions($this->extractRelayPositions($value));
+                $object->relayPositions = ($this->extractRelayPositions($value));
             },
             'resultid'       => 'resultId',
             'status'         => 'status',
             'SPLITS'         => function (Result $object, $value) {
-                $object->setSplits($this->extractSplits($value));
+                $object->splits = ($this->extractSplits($value));
             },
             'swimtime'       => 'swimTime',
         ];
@@ -581,7 +579,7 @@ class Parser
 
         $fields = [
             'CONTACT'    => function (Official $object, $value) {
-                $object->setContact($this->extractContact($value));
+                $object->contact = ($this->extractContact($value));
             },
             'firstname'  => 'firstName',
             'gender'     => 'gender',
@@ -628,20 +626,20 @@ class Parser
             'agetotalmax'    => 'ageTotalMax',
             'agetotalmin'    => 'ageTotalMin',
             'CLUB'           => function (Relay $object, $value) {
-                $object->setClub($this->extractClub($value));
+                $object->club = ($this->extractClub($value));
             },
             'ENTRIES'        => function (Relay $object, $value) {
-                $object->setEntries($this->extractEntries($value));
+                $object->entries = ($this->extractEntries($value));
             },
             'gender'         => 'gender',
             'handicap'       => 'handicap',
             'name'           => 'name',
             'number'         => 'number',
             'RELAYPOSITIONS' => function (Relay $object, $value) {
-                $object->setRelayPositions($this->extractRelayPositions($value));
+                $object->relayPositions = ($this->extractRelayPositions($value));
             },
             'RESULTS'        => function (Relay $object, $value) {
-                $object->setResults($this->extractResults($value));
+                $object->results = ($this->extractResults($value));
             },
         ];
 
@@ -766,18 +764,18 @@ class Parser
         $fields = [
             'course'            => 'course',
             'date'              => function (Session $object, $value) {
-                $object->setDate(new DateTime($value));
+                $object->date = (new DateTime($value));
             },
             'daytime'           => 'dayTime',
             'endtime'           => 'endTime',
             'EVENTS'            => function (Session $object, $value) {
-                $object->setEvents($this->extractEvents($value));
+                $object->events = ($this->extractEvents($value));
             },
             'FEES'              => function (Session $object, $value) {
-                $object->setFees($this->extractFees($value));
+                $object->fees = ($this->extractFees($value));
             },
             'JUDGES'            => function (Session $object, $value) {
-                $object->setJudges($this->extractJudges($value));
+                $object->judges = ($this->extractJudges($value));
             },
             'maxentriesathlete' => 'maxEntriesAthlete',
             'maxentriesrelay'   => 'maxEntriesRelay',
@@ -785,7 +783,7 @@ class Parser
             'number'            => 'number',
             'officialmeeting'   => 'officialMeeting',
             'POOL'              => function (Session $object, $value) {
-                $object->setPool($this->extractPool($value));
+                $object->pool = ($this->extractPool($value));
             },
             'remarksjudge'      => 'remarksJudge',
             'teamleadermeeting' => 'teamLeaderMeeting',
@@ -824,16 +822,16 @@ class Parser
 
         $fields = [
             'AGEGROUPS'        => function (Event $object, $value) {
-                $object->setAgeGroups($this->extractAgeGroups($value));
+                $object->ageGroups = ($this->extractAgeGroups($value));
             },
             'daytime'          => 'dayTime',
             'eventid'          => 'eventId',
             'FEE'              => function (Event $object, $value) {
-                $object->setFee($this->extractFee($value));
+                $object->fee = ($this->extractFee($value));
             },
             'gender'           => 'gender',
             'HEATS'            => function (Event $object, $value) {
-                $object->setHeats($this->extractHeats($value));
+                $object->heats = ($this->extractHeats($value));
             },
             'maxentries'       => 'maxEntries',
             'number'           => 'number',
@@ -842,10 +840,10 @@ class Parser
             'round'            => 'round',
             'run'              => 'run',
             'SWIMSTYLE'        => function (Event $object, $value) {
-                $object->setSwimStyle($this->extractSwimStyle($value));
+                $object->swimStyle = ($this->extractSwimStyle($value));
             },
             'TIMESTANDARDREFS' => function (Event $object, $value) {
-                $object->setTimeStandardRefs($this->extractTimeStandardRefs($value));
+                $object->timeStandardRefs = ($this->extractTimeStandardRefs($value));
             },
             'timing'           => 'timing',
             'type'             => 'type',
@@ -887,7 +885,7 @@ class Parser
             'levels'     => 'levels',
             'name'       => 'name',
             'RANKINGS'   => function (AgeGroup $object, $value) {
-                $object->setRankings($this->extractRankings($value));
+                $object->rankings = ($this->extractRankings($value));
             },
         ];
 
@@ -1011,7 +1009,7 @@ class Parser
             'code'        => 'code',
             'distance'    => 'distance',
             'name'        => 'name',
-            'relaycount'  => 'relaycount',
+            'relaycount'  => 'relayCount',
             'stroke'      => 'stroke',
             'swimstyleid' => 'swimStyleId',
             'technique'   => 'technique',
@@ -1048,7 +1046,7 @@ class Parser
         $fields = [
             'timestandardlistid' => 'timeStandardListId',
             'FEE'                => function (TimeStandardRef $object, $value) {
-                $object->setFee($this->extractFee($value));
+                $object->fee = ($this->extractFee($value));
             },
             'marker'             => 'marker',
         ];
@@ -1059,16 +1057,12 @@ class Parser
 
     protected function transform(SimpleXMLElement $document, array $fields, $object)
     {
-        if (null === $this->accessor) {
-            $this->accessor = PropertyAccess::createPropertyAccessor();
-        }
-
         foreach ($fields as $key => $value) {
             if (isset($document[$key])) {
                 if ($value instanceof Closure) {
                     call_user_func_array($value, [$object, $document[$key]]);
                 } else {
-                    $this->accessor->setValue($object, $value, $document[$key]->__toString());
+		    $object->{$value} = $document[$key]->__toString();
                 }
             }
 
@@ -1076,7 +1070,7 @@ class Parser
                 if ($value instanceof Closure) {
                     call_user_func_array($value, [$object, $document->$key]);
                 } else {
-                    $this->accessor->setValue($object, $value, $document->$key);
+                    $object->{$value} = $document->$key;
                 }
             }
         }

@@ -15,37 +15,37 @@ namespace leonverschuren\Lenex\Model;
 class AgeGroup
 {
     /** @var int */
-    protected $ageGroupId;
+    public $ageGroupId;
 
     /** @var int */
-    protected $ageMax;
+    public $ageMax;
 
     /** @var int */
-    protected $ageMin;
+    public $ageMin;
 
     /** @var string */
-    protected $gender;
+    public $gender;
 
     /** @var string */
-    protected $calculate;
+    public $calculate;
 
     /** @var int */
-    protected $handicap;
+    public $handicap;
 
     /** @var string */
-    protected $levelMax;
+    public $levelMax;
 
     /** @var string */
-    protected $levelMin;
+    public $levelMin;
 
     /** @var string */
-    protected $levels;
+    public $levels;
 
     /** @var string */
-    protected $name;
+    public $name;
 
     /** @var Ranking[] */
-    protected $rankings = [];
+    public $rankings = [];
 
     /**
      * @return int

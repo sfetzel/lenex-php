@@ -15,52 +15,52 @@ namespace leonverschuren\Lenex\Model;
 class Event
 {
     /** @var AgeGroup[] */
-    protected $ageGroups;
+    public $ageGroups;
 
     /** @var string */
-    protected $dayTime;
+    public $dayTime;
 
     /** @var int */
-    protected $eventId;
+    public $eventId;
 
     /** @var Fee */
-    protected $fee;
+    public $fee;
 
     /** @var string */
-    protected $gender;
+    public $gender;
 
     /** @var Heat[] */
-    protected $heats = [];
+    public $heats = [];
 
     /** @var int */
-    protected $maxEntries;
+    public $maxEntries;
 
     /** @var int */
-    protected $number;
+    public $number;
 
     /** @var int */
-    protected $order;
+    public $order;
 
     /** @var int */
-    protected $prevEventId;
+    public $prevEventId;
 
     /** @var string */
-    protected $round;
+    public $round;
 
     /** @var int */
-    protected $run;
+    public $run;
 
     /** @var SwimStyle */
-    protected $swimStyle;
+    public $swimStyle;
 
     /** @var TimeStandardRef[] */
-    protected $timeStandardRefs = [];
+    public $timeStandardRefs = [];
 
     /** @var string */
-    protected $timing;
+    public $timing;
 
     /** @var string */
-    protected $type;
+    public $type;
 
     /**
      * @return AgeGroup[]

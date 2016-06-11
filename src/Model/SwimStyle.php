@@ -15,25 +15,25 @@ namespace leonverschuren\Lenex\Model;
 class SwimStyle
 {
     /** @var string */
-    protected $code;
+    public $code;
 
     /** @var int */
-    protected $distance;
+    public $distance;
 
     /** @var string */
-    protected $name;
+    public $name;
 
     /** @var int */
-    protected $relayCount;
+    public $relayCount;
 
     /** @var string */
-    protected $stroke;
+    public $stroke;
 
     /** @var int */
-    protected $swimStyleId;
+    public $swimStyleId;
 
     /** @var string */
-    protected $technique;
+    public $technique;
 
     /**
      * @return string

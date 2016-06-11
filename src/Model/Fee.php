@@ -15,13 +15,13 @@ namespace leonverschuren\Lenex\Model;
 class Fee
 {
     /** @var string */
-    protected $currency;
+    public $currency;
 
     /** @var string */
-    protected $type;
+    public $type;
 
     /** @var float */
-    protected $value;
+    public $value;
 
     /**
      * @return string

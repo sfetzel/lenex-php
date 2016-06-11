@@ -15,13 +15,13 @@ namespace leonverschuren\Lenex\Model;
 class Ranking
 {
     /** @var int */
-    protected $order;
+    public $order;
 
     /** @var int */
-    protected $place;
+    public $place;
 
     /** @var int */
-    protected $resultId;
+    public $resultId;
 
     /**
      * @return int

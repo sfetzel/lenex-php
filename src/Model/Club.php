@@ -15,46 +15,46 @@ namespace leonverschuren\Lenex\Model;
 class Club
 {
     /** @var Athlete[] */
-    protected $athletes = [];
+    public $athletes = [];
 
     /** @var string */
-    protected $code;
+    public $code;
 
     /** @var Contact */
-    protected $contact;
+    public $contact;
 
     /** @var string */
-    protected $name;
+    public $name;
 
     /** @var string */
-    protected $nameEn;
+    public $nameEn;
 
     /** @var string */
-    protected $nation;
+    public $nation;
 
     /** @var int */
-    protected $number;
+    public $number;
 
     /** @var Official[] */
-    protected $officials = [];
+    public $officials = [];
 
     /** @var string */
-    protected $region;
+    public $region;
 
     /** @var Relay[] */
-    protected $relays = [];
+    public $relays = [];
 
     /** @var string */
-    protected $shortName;
+    public $shortName;
 
     /** @var string */
-    protected $shortNameEn;
+    public $shortNameEn;
 
     /** @var int */
-    protected $swrId;
+    public $swrId;
 
     /** @var string */
-    protected $type;
+    public $type;
 
     /**
      * @return Athlete[]

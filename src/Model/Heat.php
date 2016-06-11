@@ -17,25 +17,25 @@ use DateTime;
 class Heat
 {
     /** @var int */
-    protected $ageGroupId;
+    public $ageGroupId;
 
     /** @var DateTime */
-    protected $dayTime;
+    public $dayTime;
 
     /** @var string */
-    protected $final;
+    public $final;
 
     /** @var int */
-    protected $heatId;
+    public $heatId;
 
     /** @var int */
-    protected $number;
+    public $number;
 
     /** @var int */
-    protected $order;
+    public $order;
 
     /** @var string */
-    protected $status;
+    public $status;
 
     /**
      * @return int

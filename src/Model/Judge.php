@@ -15,16 +15,16 @@ namespace leonverschuren\Lenex\Model;
 class Judge
 {
     /** @var int */
-    protected $number;
+    public $number;
 
     /** @var int */
-    protected $officialId;
+    public $officialId;
 
     /** @var string */
-    protected $remarks;
+    public $remarks;
 
     /** @var string */
-    protected $role;
+    public $role;
 
     /**
      * @return int

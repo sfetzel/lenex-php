@@ -17,103 +17,103 @@ use DateTime;
 class Meet
 {
     /** @var AgeDate */
-    protected $ageDate;
+    public $ageDate;
 
     /** @var int */
-    protected $altitude;
+    public $altitude;
 
     /** @var string */
-    protected $city;
+    public $city;
 
     /** @var string */
-    protected $cityEn;
+    public $cityEn;
 
     /** @var Club[] */
-    protected $clubs = [];
+    public $clubs = [];
 
     /** @var Contact */
-    protected $contact;
+    public $contact;
 
     /** @var string */
-    protected $course;
+    public $course;
 
     /** @var DateTime */
-    protected $deadline;
+    public $deadline;
 
     /** @var string */
-    protected $deadlineTime;
+    public $deadlineTime;
 
     /** @var DateTime */
-    protected $entryStartDate;
+    public $entryStartDate;
 
     /** @var string */
-    protected $entryType;
+    public $entryType;
 
     /** @var Fee[] */
-    protected $fees = [];
+    public $fees = [];
 
     /** @var string */
-    protected $hostClub;
+    public $hostClub;
 
     /** @var string */
-    protected $hostClubUrl;
+    public $hostClubUrl;
 
     /** @var int */
-    protected $maxEntries;
+    public $maxEntries;
 
     /** @var string */
-    protected $name;
+    public $name;
 
     /** @var string */
-    protected $nameEn;
+    public $nameEn;
 
     /** @var string */
-    protected $nation;
+    public $nation;
 
     /** @var string */
-    protected $number;
+    public $number;
 
     /** @var string */
-    protected $organizer;
+    public $organizer;
 
     /** @var string */
-    protected $organizerUrl;
+    public $organizerUrl;
 
     /** @var PointTable */
-    protected $pointTable;
+    public $pointTable;
 
     /** @var Pool */
-    protected $pool;
+    public $pool;
 
     /** @var Qualify */
-    protected $qualify;
+    public $qualify;
 
     /** @var int */
-    protected $reserveCount;
+    public $reserveCount;
 
     /** @var string */
-    protected $resultUrl;
+    public $resultUrl;
 
     /** @var Session[] */
-    protected $sessions = [];
+    public $sessions = [];
 
     /** @var string */
-    protected $startMethod;
+    public $startMethod;
 
     /** @var string */
-    protected $state;
+    public $state;
 
     /** @var string */
-    protected $swrId;
+    public $swrId;
 
     /** @var string */
-    protected $timing;
+    public $timing;
 
     /** @var string */
-    protected $type;
+    public $type;
 
     /** @var DateTime */
-    protected $withdrawUntil;
+    public $withdrawUntil;
 
     /**
      * @return AgeDate
